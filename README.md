@@ -123,6 +123,38 @@ After that, just fork the project, change what you want, and send us a pull requ
 * Feel free to add specs to committed code that lacks coverage ;)
 * Let our tests serve as a style guide: we try to use implicit spec subjects and lazy evaluation wherever we can.
 
+### Steps
+https://github.com/catarse/catarse/wiki/Translating-to-English
+
+./postgrest postgres://xiaoyilu@localhost/catarse_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
+Listening on port 3004
+
+
+rake db:create db:migrate
+Open rails console in your terminal at your project, type rails console
+Copy and paste this:
+CatarseSettings[:fdw_user] = 'xiaoyilu'
+CatarseSettings[:common_db_user] = 'xiaoyilu'
+CatarseSettings[:common_db_port] = '5432'
+CatarseSettings[:common_db_password] = 'Password1'
+CatarseSettings[:common_db_name] = 'service_core'
+
+Need this:
+create role catarse;
+create database service_core;
+
+Exit rails console and type rake common:generate_fdw
+
+Create database service_core in your Postgresql DB
+
+Run rake db:migrate again
+
+Run rake db:seed
+
+Open server by typing rails server
+
+Hope you to understand clearly!
+
 ## Credits
 
 Author: Daniel Weinmann
