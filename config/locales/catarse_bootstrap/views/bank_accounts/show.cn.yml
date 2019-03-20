@@ -1,0 +1,13 @@
+en:
+  bank_accounts:
+    show:
+      success: 申请成功!
+      success_detail: 我们会把交易路和操作流程以邮件的形式发给你。
+      review: 交易汇总
+      page-title: 退款申请成功
+      value_label: "总退款额: %{value}"
+      agency_label: "中介: %{content}"
+      bank_label: "银行: %{content}"
+      account_label: "账户: %{content}"
+      owner_name_label: "账户名: %{content}"
+      owner_document_label: "CPF: %{content}"

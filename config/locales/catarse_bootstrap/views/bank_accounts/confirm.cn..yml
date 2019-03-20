@@ -1,0 +1,11 @@
+en:
+  bank_accounts:
+    confirm:
+      page-title: "确认银行账户信息"
+      agency_label: "中介: %{content}"
+      bank_label: "银行: %{content}"
+      account_label: "账户: %{content}"
+      owner_name_label: "账户名: %{content}"
+      owner_document_label: "CPF: %{content}"
+      answer_yes: YES
+      answer_no: NOT
