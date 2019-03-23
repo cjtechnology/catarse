@@ -1,0 +1,17 @@
+cn:
+  shared:
+    menus:
+      user:
+        find_friends: 查找好友
+        about: 公共简介
+        access_address: 注册数据
+        activity: 活动
+        banking: 银行和卡
+        contributions_history: 我的贡献记录
+        contributions_history_nav: 贡献记录
+        logged_as: 登陆名是
+        notifications: 通知
+        project_contributions: 项目贡献
+        projects_created: 项目创建于
+        update_email: 更新电子邮件
+        your_email: '你的电子邮箱是：'

@@ -1,0 +1,43 @@
+zh-CN:
+  layouts:
+    footer:
+      links:
+        how_it_works: 工作流程?
+        novelty: 商品
+        rate: 利率
+        jobs: 工作
+        blog: 日志
+        contact: 联系
+        press: 新闻发布
+        discover: 搜索项目
+        start: 如何工作?
+        expiring: 发现
+        facebook: Facebook
+        team: 我们的团队
+        flex: 项目flex 
+        crowdfunding_stats: "Portrait FC Brazil 2013/2014"
+        faq: 问答
+        guides: Guide for Filmmakers
+        feedback: 反馈
+        github: Github
+        instagram: Instagram
+        near: 附近的人
+        privacy: 隐私和政策
+        recents: 最近
+        recommended: 推荐的
+        submit: 提交你的项目
+        terms: 使用条款
+        twitter: Twitter
+        help_support: 支持中心
+        score: 欢迎度
+        finished: 完成
+        online: 在线
+      texts:
+        copyleft: 荣誉推出.
+        email: 邮件
+      titles:
+        about: 帮助
+        contact: 联系
+        newsletter: 新闻
+        sitemap: sitemap
+        social: 社交媒体

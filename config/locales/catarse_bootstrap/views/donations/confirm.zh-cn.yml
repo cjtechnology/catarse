@@ -1,0 +1,9 @@
+zh-CN:
+  donations:
+    confirm:
+      'yes': '确认'
+      'no': 取消
+      title: 确认给网站捐款?
+      amount: 你要捐款 %{amount} 吗.
+      info1: 你的捐款会用来帮助网站运营和创新.
+      info2: 你的名字也会在我们的捐款特别页中显示出来!

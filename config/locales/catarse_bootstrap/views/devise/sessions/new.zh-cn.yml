@@ -1,0 +1,19 @@
+zh-CN:
+  devise:
+    sessions:
+      new:
+        no_account_html: "需要新账户?"
+        titles:
+          site: '登陆'
+          header: '登陆'
+        links:
+          register: "注册"
+          password: "密码"
+          forgot_password: "忘记密码"
+        form:
+          labels:
+            remember_me: '记住我'
+          inputs:
+            submit: '登陆'
+            password: "密码"
+            facebook: '用Facebook登陆'

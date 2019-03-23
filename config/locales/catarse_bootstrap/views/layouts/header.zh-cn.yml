@@ -1,0 +1,22 @@
+zh-CN:
+  layouts:
+    header:
+      blog: 日志
+      discover: 发现
+      hello: 了解更多
+      faq: 问答
+      help: 帮助
+      help_support: 支持中心
+      profile: 我的属性
+      projects: 我的项目
+      signin: 登录
+      signup: 注册
+      submit: 提交你的项目
+      search: 搜索项目
+    login:
+      login_with_facebook: 用Facebook登录
+    user:
+      my_contributions: 我的贡献
+      logout: 登出
+      my_credits: 积分
+      refund_link: 申请退款

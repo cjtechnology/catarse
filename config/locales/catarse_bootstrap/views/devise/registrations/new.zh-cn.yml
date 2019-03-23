@@ -1,0 +1,23 @@
+zh-CN:
+  devise:
+    registrations:
+      new:
+        have_account_html: 已有注册账户?
+        titles:
+          site: '注册'
+          header: '注册'
+        links:
+          login: "登陆"
+        form:
+          labels:
+            show_password: '显示密码'
+            name: '姓名'
+            password: '密码'
+            newsletter: '我想订阅咨询'
+          hint:
+            password_length: '密码长度至少6位.'
+          inputs:
+            submit: '注册'
+            facebook: '用Facebook注册'
+
+

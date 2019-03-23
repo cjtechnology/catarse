@@ -1,0 +1,5 @@
+zh-CN:
+  errors:
+    not_found:
+      text: 你可能输入了错误的网页地址或者该网页已不存在.
+      title: 此地址未找到

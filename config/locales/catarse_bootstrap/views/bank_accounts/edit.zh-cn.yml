@@ -1,0 +1,10 @@
+zh-CN:
+  bank_accounts:
+    edit:
+      project: 项目
+      page-title: 退款中，请填写银行信息
+      fill_form: 填写银行信息
+      fill_form_text: 你有 %{amount} 正在退款中. 请输入你的详细信息!
+      request_refunds: 申请退款
+      input_bank_number_label: 银行账户 (3 位数)
+      search_bank_btn_html: 搜索 &nbsp;&gt;
