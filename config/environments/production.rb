@@ -87,4 +87,7 @@ Catarse::Application.configure do
   config.action_dispatch.default_headers = {
     'X-Frame-Options' => 'ALLOWALL'
   }
+
+  # Custom webpack-dev-server. Set it to true to use webpack-dev-server
+  config.webpack_dev_server = false
 end

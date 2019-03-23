@@ -1,0 +1,43 @@
+zh-CN:
+  layouts:
+    footer:
+      links:
+        how_it_works: 如何运作?
+        novelty: 新奇
+        rate: Our Rate
+        jobs: 岗位
+        blog: 博客
+        contact: 联系我们
+        press: 新闻
+        discover: 发现好项目
+        start: 开始
+        expiring: 逾期
+        facebook: 脸书
+        team: 我们的团队
+        flex: Catarse flex
+        crowdfunding_stats: "中澳投资 2019/2020"
+        faq: 常见问题
+        guides: Guide for Filmmakers
+        feedback: 反馈
+        github: Github
+        instagram: Instagram
+        near: 附近
+        privacy: 隐私政策
+        recents: 最近
+        recommended: 推荐
+        submit: 开始你的项目
+        terms: 使用退款
+        twitter: 推特
+        help_support: 支持中心
+        score: 火热
+        finished: 结束
+        online: 在线
+      texts:
+        copyleft: Made with love.
+        email: 你的邮件地址
+      titles:
+        about: 帮助
+        contact: 欢迎
+        newsletter: Newsletter
+        sitemap: Sitemap
+        social: 社交媒体

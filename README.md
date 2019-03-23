@@ -129,6 +129,8 @@ https://github.com/catarse/catarse/wiki/Translating-to-English
 ./postgrest postgres://xiaoyilu@localhost/catarse_development -a anonymous --jwt-secret gZH75aKtMN3Yj0iPS4hcgUuTwjAzZr9C -s 1 -p 3004
 Listening on port 3004
 
+## generate public translation
+rake i18n:js:export
 
 rake db:create db:migrate
 Open rails console in your terminal at your project, type rails console

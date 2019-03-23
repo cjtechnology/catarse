@@ -27,7 +27,7 @@ gem 'postgres-copy'
 gem 'postgres_ext'
 gem 'pg_search'
 gem 'i18n_alchemy'
-gem "i18n-js", ">= 3.0.0.rc11"
+gem "i18n-js"
 gem 'whenever'
 
 gem 'schema_plus'

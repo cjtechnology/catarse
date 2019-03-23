@@ -15,7 +15,6 @@ coverage
 public/uploads/*chromedriver.log
 public/uploads/
 public/assets/
-public/javascripts/
 chromedriver.log
 .use_capybara_webkit
 config/locales/.wti

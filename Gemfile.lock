@@ -688,7 +688,7 @@ DEPENDENCIES
   heroku-deflater (>= 0.4.1)
   high_voltage
   http_accept_language
-  i18n-js (>= 3.0.0.rc11)
+  i18n-js
   i18n_alchemy
   inherited_resources
   jasmine-rails
