@@ -2,18 +2,18 @@ zh-CN:
   devise:
     sessions:
       new:
-        no_account_html: "Need an account?"
+        no_account_html: "需要新账户?"
         titles:
-          site: 'Log in'
-          header: 'Log in'
+          site: '登陆'
+          header: '登陆'
         links:
-          register: "Sign up"
-          password: "Password"
-          forgot_password: "I forgot my password"
+          register: "注册"
+          password: "密码"
+          forgot_password: "忘记密码"
         form:
           labels:
-            remember_me: 'Remember me'
+            remember_me: '记住我'
           inputs:
-            submit: 'Log me in'
-            password: "Password"
-            facebook: 'Log in with Facebook'
+            submit: '登陆'
+            password: "密码"
+            facebook: '用Facebook登陆'
