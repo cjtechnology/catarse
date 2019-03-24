@@ -1,0 +1,5 @@
+zh-CN:
+  will_paginate:
+    next: "Next »"
+    page_gap: "..."
+    previous: "« Previous"

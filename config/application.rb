@@ -71,7 +71,5 @@ module Catarse
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
-    # Custom webpack-dev-server. Set it to true to use webpack-dev-server
-    config.webpack_dev_server = false
   end
 end
