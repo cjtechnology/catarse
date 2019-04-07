@@ -114,6 +114,14 @@ class ApplicationController < ActionController::Base
                   end)[0..2].to_json
   end
 
+  def change_locale
+    return redirect_to url_for(locale: I18n.default_locale, only_path: true) unless is_locale_available?
+    I18n.locale = params[:locale] || I18n.default_locale
+    I18n.default_locale = params[:locale]
+
+    redirect_to request.base_url
+  end
+
   private
 
   def redirect_when_zendesk_session

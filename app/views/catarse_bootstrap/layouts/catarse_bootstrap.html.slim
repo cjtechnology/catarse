@@ -77,6 +77,13 @@ html
   - if content_for? :js
     /page specific JS files
     = yield :js
+
+  - if I18n.locale.to_s == 'zh-CN' && Rails.configuration.webpack_dev_server == false
+    = javascript_include_tag "i18n/catarse_zh-CN.js"
+
+  - if I18n.locale.to_s == 'en' && Rails.configuration.webpack_dev_server == false
+    = javascript_include_tag "i18n/catarse_en.js"
+
   - if Rails.env.production?
     = render 'layouts/optinmonster'
   = render 'layouts/google_translate'
