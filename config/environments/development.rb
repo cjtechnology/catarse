@@ -47,5 +47,5 @@ Catarse::Application.configure do
   config.middleware.use I18n::JS::Middleware
 
   # Custom webpack-dev-server. Set it to true to use webpack-dev-server
-  config.webpack_dev_server = false
+  config.webpack_dev_server = true
 end

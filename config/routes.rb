@@ -44,6 +44,7 @@ Catarse::Application.routes.draw do
     get '/thank_you' => 'static#thank_you'
     get '/follow-fb-friends' => 'users#follow_fb_friends', as: :follow_fb_friends
     get '/connect-facebook' => 'application#connect_facebook', as: :connect_fb
+    get '/change_locale' => 'application#change_locale'
 
     get '/notifications/:notification_type/:notification_id' => 'notifications#show'
 

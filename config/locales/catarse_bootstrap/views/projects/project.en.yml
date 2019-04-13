@@ -30,7 +30,7 @@ en:
             of the present time.
           link: https://www.catarse.me/lendas?ref=home_banner
           cta: Know the project
-          image: spanish.cl
+          image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-arcanesally.jpg
         5:
           title: Arcane Sally and Mr. Steam
           subtitle: Agents of the Crown, dangerous mathematical theories of Lewis
