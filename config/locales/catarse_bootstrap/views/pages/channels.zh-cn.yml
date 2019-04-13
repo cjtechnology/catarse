@@ -1,0 +1,97 @@
+zh-CN:
+  admin:
+    menu: 频道
+    followers_menu: 关注
+    statistics_menu: 数据
+    profile_menu: 属性
+    partners_menu: 合作
+    statistics:
+      title: 频道
+      total_subscribers: 总订阅数
+    confirmations:
+      destroy: 你确定你要删除吗？
+    filter:
+      between_created_at: 创建
+      by_id: id
+      order_table: 排序表
+      pg_search: 项目
+      submit: 筛选
+      title: 筛选
+      user_name_contains: 用户
+      with_state: 状态
+      by_payment_method: 支付菜单
+      by_gateway: 网关
+    followers:
+      index:
+        download: 下载列表
+        title: 关注者
+    management:
+      no_partners: 没有合作者注册
+      no_posts: 没有新闻注册
+      title: 商业管理
+      total: 总项目数
+    partners:
+      back_to_list: "← 返回合作者管理"
+      new:
+        add_partner: 添加合作者
+      edit:
+        edit_title: 编辑合作者
+      form:
+        hint_image: 图片大小 370x320
+        save_submit: 保存
+      index:
+        new_button: 添加合作者
+        table:
+          created_at: 创建
+          image: 图片
+          name: 姓名
+          url: 网站
+          actions: 操作
+        title: 管理合作者
+    posts:
+      back_to_list: "← 返回新闻管理"
+      new:
+        create_news: 创建新消息
+      edit:
+        edit_news: 编辑消息
+      index:
+        new_post_button: 创建新索引
+        table:
+          actions: 操作
+          created_at: 创建
+          published_at: 发布
+          title: 标题
+        title: 管理消息
+      form:
+        save_submit: 保存并提交
+      update:
+        published_message: 消息已发布并以邮件形式发布给关注者频道。
+      warning_html: 切记所有发布的消息会发送给项目支持者。请认真审阅后再发表。
+    posts_menu: 管理消息
+    table:
+      approve: 批准
+      category: 分类
+      confirmation: 你确定你要删除这个项目吗？所有募集的资金会被退还给支持者。
+      confirmation_reject: 你确定你要取消这个项目吗？所有募集的资金会被退还给支持者。
+      confirmation_draft: 你确定你想创建一个项目草稿吗？所有募集的资金会被退还给支持者。
+      contributed_projects: 支持项目
+      created_projects: 创建项目
+      destroy_action: 删除
+      edit_action: 编辑
+      expires_at: 过期日
+      goal: 目标
+      name: 标题
+      online_date: 发布日
+      pledged: 达成
+      publish_action: 发布
+      recommended: 推荐
+      reject: 取消
+      send_to_draft: 发送到草搞箱
+      put_online: 发布
+      send_to_trash: 删除项目
+      show_action: 浏览
+      state: 状态
+      total_contributions: 支持
+      unpublish_action: 取消发布
+      user: 用户
+      user_id: 用户名

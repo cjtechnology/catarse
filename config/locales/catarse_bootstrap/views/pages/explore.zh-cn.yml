@@ -1,0 +1,19 @@
+zh-CN:
+  pages:
+    explore:
+      header_html: 浏览所有项目
+      success_follow: 谢谢！我们会把 %{name} 类别里的最新项目以邮件形式发送发邮件。
+      success_unfollow: 你已经取消关注 %{name} 类别.
+      follow: 关注
+      unfollow: 取消关注
+      following: 关注者
+      categories: 类别
+      expiring: 过期日
+      in_funding: 正在募集资金
+      near: 靠近
+      quick_explore: 快速搜索
+      recent: 最新更新
+      recommended: 最受欢迎
+      subtitle: 查找你感兴趣的项目！
+      successful: 成功
+      title: 查找项目
