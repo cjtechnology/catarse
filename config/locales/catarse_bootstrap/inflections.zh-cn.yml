@@ -1,0 +1,17 @@
+zh-CN:
+  found_singular: 找到一个
+  found_plural: 找到多个
+  project_singular: 项目
+  project_plural: 多个项目
+  contribution_singular: 一个贡献
+  contribution_plural: 多个贡献
+  remaining_singular: 剩余
+  remaining_plural: 多个剩余
+  created_project:
+    zero: 还未创建项目
+    one: " %{count}个项目已创建"
+    other: " %{count}个项目已创建"
+  contributed_project:
+    zero: 还未对项目有贡献
+    one: 贡献了 %{count} 个项目
+    other: 贡献了 %{count} 个项目
