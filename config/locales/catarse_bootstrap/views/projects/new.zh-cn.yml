@@ -1,0 +1,26 @@
+zh-CN:
+  projects:
+    new:
+      page-title: 开始你的项目
+      faq:
+        titles:
+          support: 支持
+          know_more: 了解更多
+        links:
+          criteria: 筛选标准
+          suport_central: 支持中心
+          support_contact: 联系我们
+          how_it_works: 如何工作？
+          money: 如何收款？
+          selection: 项目如何选择？
+          all_or_nothing: All或者Nothing?
+      form:
+        blocks:
+          first:
+            title: 欢迎!
+            description: 填写一下信息起草你的项目
+        info:
+          permalink: http://cjtechxyz/
+          goal: R$
+          online_days: 天数
+        submit: 保存并继续

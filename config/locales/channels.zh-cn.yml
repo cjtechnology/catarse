@@ -1,0 +1,44 @@
+zh-CN:
+  channels_subscribers:
+    created: '你现在正在关注 %{channel}'
+    deleted: '你已经取消关注 %{channel}'
+  channels:
+    send_your_project: "提交你的项目"
+    send_a_email: "发送邮件"
+    follow: "关注频道"
+    following: "关注"
+    unfollow: "取消关注"
+    subscribed: "%{count} 订阅了这个频道"
+    admin:
+      menu: "Channel moderation"
+      statistics_menu: "统计"
+      profile_menu: "频道属性"
+      statistics:
+        title: '频道统计'
+        total_subscribers: '总订阅数'
+    projects:
+      send: "提交你的项目"
+      see_how_it_works: "如何工作并提交项目。"
+      how_it_works: "如何工作"
+      progress_html: "<span>%{percent}%</span> 已经被资助"
+      time_remaining_html:
+        one: "<span>%{count} %{unit}</span> 剩余"
+        other: "<span>%{count} %{unit}</span> 剩余"
+      pledged_html: "<span>%{value}</span> 募集"
+    how_it_works:
+      title: "%{channel}如何工作?"
+    footer:
+      terms: "使用条款"
+      privacy_policy: "隐私协议"
+      how_it_works: "%{name}如何工作"
+      how_channels_work: "了解频道信息"
+      contact: "联系"
+    accessibility:
+      how_it_works: "Clique para saber como o Canal funciona e enviar o seu projeto"
+      send_your_project: "点击提交项目"
+      link_to_twitter: "频道twitter链接"
+      link_to_facebook: "频道facebook链接"
+      link_to_website: "频道网站"
+    presentation:
+      link-to-follow: '关注频道'
+      followers: '关注数'

@@ -1,0 +1,209 @@
+zh-CN:
+  date:
+    abbr_day_names:
+      - 周日
+      - 周一
+      - 周二
+      - 周三
+      - 周四
+      - 周五
+      - 周六
+    abbr_month_names:
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
+    day_names:
+      - 周日
+      - 周一
+      - 周二
+      - 周三
+      - 周四
+      - 周五
+      - 周六
+    formats:
+      default: ! '%Y-%m-%d'
+      with_time: ! "%Y/%m/%d - %H:%M"
+      long: ! '%B %d, %Y'
+      short: ! '%b %d'
+    month_names:
+      -
+      - 一月
+      - 二月
+      - 三月
+      - 四月
+      - 五月
+      - 六月
+      - 七月
+      - 八月
+      - 九月
+      - 十月
+      - 十一月
+      - 十二月
+    order:
+      - :年
+      - :月
+      - :日
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: 大约1小时
+        other: 大约 %{count} 小时
+      about_x_months:
+        one: 大约1个月
+        other: 大约 %{count} 月
+      about_x_years:
+        one: 大约1年
+        other: 大约 %{count} 年
+      almost_x_years:
+        one: 将近1年
+        other: 将近 %{count} 年
+      half_a_minute: 半分钟
+      less_than_x_minutes:
+        one: 少于1分钟
+        other: 少于 %{count} 分钟
+      less_than_x_seconds:
+        one: 少于1秒
+        other: 少于 %{count} 秒
+      over_x_years:
+        one: 超过1年
+        other: 超过 %{count} 年
+      x_days:
+        one: 1天
+        other: ! '%{count} 天'
+      x_minutes:
+        one: 1分钟
+        other: ! '%{count} 分钟'
+      x_months:
+        one: 1个月
+        other: ! '%{count} 月'
+      x_seconds:
+        one: 1秒
+        other: ! '%{count} 秒'
+    prompts:
+      day: 天
+      hour: 小时
+      minute: 分钟
+      month: 月
+      second: 秒
+      year: 年
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: 不能接受
+      blank: 不能为空白
+      confirmation: 不匹配
+      empty: 不能是空值
+      equal_to: 必须等于%{count}
+      even: 必须是偶数
+      exclusion: 保留字段
+      greater_than: 必须大于%{count}
+      greater_than_or_equal_to: 必须大于等于%{count}
+      inclusion: 没有包含在列表
+      invalid: 有效
+      less_than: 必须少于%{count}
+      less_than_or_equal_to: 必须小于等于%{count}
+      not_a_number: 不能是数字
+      not_an_integer: 必须是整数
+      odd: 必须是奇数
+      record_invalid: ! '验证失败错误: %{errors}'
+      taken: 已被占用
+      too_long:
+        one: 太长 (最多一个字节)
+        other: 太长 (最多%{count}个字节)
+      too_short:
+        one: 太短 (最少1个字节)
+        other: 太短 (最少%{count}个字节)
+      wrong_length:
+        one: 错误长度 (应该一个字节)
+        other: 错误长度 (应该%{count}个字节)
+    template:
+      body: ! '以下填写项有问题:'
+      header:
+        one: %{model}有一个错误，无法保存
+        other: ! '%{model}有%{count} 个错误，无法保存'
+  helpers:
+    select:
+      prompt: Please select
+    submit:
+      create: 创建 %{model}
+      submit: 保存 %{model}
+      update: 更新 %{model}
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%u%n'
+        precision: 0
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: R$
+    format:
+      delimiter: ! ','
+      precision: 3
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: 十亿
+          million: 百万
+          quadrillion: Quadrillion
+          thousand: 千
+          trillion: 万亿
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ', 和 '
+      two_words_connector: ! ' 和 '
+      words_connector: ! ', '
+  time:
+    am: am
+    formats:
+      estimate: "%B/%Y"
+      default: ! '%a, %d %b %Y %H:%M:%S %z'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+      posts: "%d %b %Y"
+    pm: pm
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors
+

@@ -1,0 +1,35 @@
+zh-CN:
+  pages:
+    press:
+      page-title: 媒体报道
+      hero:
+        title: 媒体报道
+      stats:
+        title: 数字
+        subtitle: Many artists, designers, researchers, gamers, scientists, entrepreneurs
+          and activists have found on the platform a powerful tool to make their actions
+          and projects financially viable. This story can be told in numbers.
+        people_html: 多少人支持了 <br> 至少一个项目
+        projects_html: 多少项目 <br> 没有获得足够融资
+        money_html: 无偿赞助的项目 <br> 在这里发布
+        cta_html: "浏览全部类别 &gt;"
+      abstract:
+        title: Catarse is the first and largest crowdfunding site, or collective financing,
+          in Brazil. We are the meeting point of a growing community of people interested
+          in, together, contributing financially to take out projects of various categories.
+      history:
+        title: CJTech的历史
+        subtitle: 'First collective financing platform for creative projects in Brazil,
+          Catarse was launched on January 17, 2011. The foundation manifesto said
+          that the site was born because of a pain: to see brilliant people with projects
+          ...'
+        cta_html: "阅读这个故事 &gt;"
+      social:
+        title: 关注我们
+        news: 订阅新闻
+      assets:
+        title: 需要我们的高清宣传照片?
+        cta_html: "下载我们的品牌logo &gt;"
+      email:
+        title: 了解更多?
+        cta: admin@cjtech.xyz

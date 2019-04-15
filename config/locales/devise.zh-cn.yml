@@ -1,0 +1,99 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+zh-CN:
+  devise:
+    feedback_tab:
+      title: '意见和反馈'
+      header_html: "欢迎 <br/> 登陆"
+      blog_button: '了解更多'
+      form_feedback_link: '提供反馈'
+      contact_link: '联系客服'
+    confirmations:
+      confirmed: "你的账户已确认，正在登录中."
+      send_instructions: "你会在未来几分钟收到一份确认邮件。"
+      send_paranoid_instructions: "如果你的邮件已经在我们的系统，你会在未来几分钟收到一份确认邮件。"
+    failure:
+      password_token: '这个重置密码链接已经失效，请重新输入邮件。'
+      already_authenticated: ""
+      #already_authenticated: "You are already signed in."
+      inactive: "你的账户还未激活。"
+      invalid: "无效的邮件或密码。"
+      invalid_token: "无效的身份验证。"
+      locked: "你的账户已被锁定。"
+      not_found_in_database: "无效的邮件或密码。"
+      timeout: "你的session已失效，请重新登录继续。"
+      unauthenticated: ''
+      #unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "你必须确认你的账户才能继续。"
+    mailer:
+      confirmation_instructions:
+        subject: "确认流程"
+      reset_password_instructions:
+        subject: "重置密码流程"
+      unlock_instructions:
+        subject: "解锁流程"
+    omniauth_callbacks:
+      failure: "无法从%{kind}进行身份验证，因为\"%{reason}\"."
+      success: ''
+      #success: "Successfully authenticated from %{kind} account."
+    passwords:
+      no_token: ''
+      #no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "这个重置密码链接已经失效，请重新输入邮件。"
+      send_paranoid_instructions: "如果你的邮件已经在我们的系统，你会在未来几分钟收到一份密码恢复确认邮件。"
+      updated: ""
+      #updated: "Your password has been set"
+      updated_not_active: "密码修改成功。"
+      new:
+        site_title: '忘记密码'
+        title: '输入邮件并重置密码。'
+        submit: '发送重置密码流程'
+      edit:
+        site_title: 重置密码
+        label_new_password: '输入密码'
+        title: '重置密码'
+        subtitle: '重置密码并使用邮件和密码登陆'
+        submit: '重置密码'
+    registrations:
+      destroyed: "再见！你的账户已被取消，欢迎你再次回来。"
+      signed_up: ""
+      #signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "你已经成功注册。但是我们无法登录，因为你的账户还未激活。"
+      signed_up_but_locked: "你已经成功注册。但是我们无法登录，因为你的账户已锁定。"
+      signed_up_but_unconfirmed: "我们已经发送确认邮件到你的邮箱。请点击链接激活你的账户。"
+      update_needs_confirmation: "你已经成功更新了账户，但是我们需要确认你的新邮件。请查看你的邮件，并点击确认链接完成最后的注册步骤。"
+      updated: "你已经成功更新了账户。"
+    sessions:
+      new:
+        site_title: "登陆"
+        submit: "登陆"
+        title: "输入邮件"
+        login_title: 登陆
+        login_subtitle: "已有账户"
+        register_title: "注册"
+        register_subtitle: "使用你的邮件"
+        with_facebook: "使用你的facebook账户"
+        with_facebook_subtitle: "快速登陆"
+        google_warning_html: "如果你在使用<strong>Google</strong>账户:"
+        google_step_1: "1 - 点击%{link}"
+        google_step_2: "2 - 遵循步骤创建密码"
+        with_another_social: "Twitter支持下周撤销"
+        with_another_social_subtitle: "<a target=\"_blank\" href=\"http://www.cjtech.xyz\">了解更多</a> 关于网站的信息"
+      signed_in: ''
+      #signed_in: "Signed in successfully."
+      signed_out: ''
+      #signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "在未来几分钟你会收到解锁账户的邮件。"
+      send_paranoid_instructions: "如果你的邮件已经在我们的系统，你会在未来几分钟收到一份解锁账户的邮件。"
+      unlocked: "你的账户已经成功解锁。请重新登陆。"
+  errors:
+    messages:
+      already_confirmed: "已经确认，请尝试重新登录。"
+      confirmation_period_expired: "必须在%{period}时间段确认,请重新发送请求"
+      expired: "已失效，请重新发送请求。"
+      not_found: "无法找到"
+      not_locked: "没有锁定"
+      not_saved:
+        one: "资源%{resource}有1个错误，无法保存："
+        other: "资源%{resource}有%{count}个错误，无法保存："

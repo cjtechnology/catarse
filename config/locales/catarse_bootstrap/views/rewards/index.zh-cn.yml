@@ -1,0 +1,27 @@
+zh-CN:
+  rewards:
+    form:
+      edit: 编辑奖励
+      reward: 奖励
+      info_box: 你可以限制奖励数。一旦奖励数达到最大值，奖励会标记为售罄。预计送达日是你的奖励发送给贡献者的日期。如果你想改变奖励的顺序，你可以拖拽实现。
+      minimum_value: '最小值:'
+      deliver_at: '预计送达日:'
+      description: '描述:'
+      limit_reward: 限制奖励
+      available: 购买数量
+      submit: 保存
+    index:
+      link_tip: 以下链接会带你到贡献页面。
+      select_reward: 选择这个奖励
+      display_remaining: "%{remaining} / %{maximum} 可以购买"
+      dont_want: 我不要奖励
+      or_more: 更多
+      limited: 限制
+      sold_out: 售罄
+      contributions_to_confirm:
+        one: 有效期内一次贡献
+        other: "%{count} 个有效期内的贡献"
+      edit_reward: 编辑奖励
+      new_reward: 奖励
+      reward_deliver_time: "<b>预计送达日:</b> %{estimate}"
+      reward_title: %{minimum} 或更多
