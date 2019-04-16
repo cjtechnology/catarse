@@ -1,0 +1,141 @@
+zh-CN:
+  projects:
+    about_mobile:
+      by: per
+      back: "< Back"
+    project_embed:
+      insert: 插入组件到网站
+    mobile_video:
+      read_more: 阅读详情
+    metrics:
+      titles:
+        confirmed_by_day: 每天总支持票
+        confirmed_amount_by_day: 每天确认数
+        address_state: 根据状态确认的总支持票
+    reminder:
+      ok: 好的，在项目募集结束前我们会给你发提醒邮件！
+      active_btn: 提醒我的项目
+      deactive_btn: 我不想被记录
+    announce_expiration: His project was for the final stretch.
+    announce_expiration_error: The final line has already been defined!
+    send_to_analysis: 你的项目已经发给我们的团队。
+    send_to_analysis_error: 提交项目遇到问题，请填写所有要求选项。
+    push_to_online: 你的项目已经上线！
+    push_to_online_error: 发布项目遇到问题，请填写所有要求选项。
+    twitter:
+      take_a_look: 检查项目 %{name} on @cjtech
+    video_embed:
+      a_project_by_html: A %{link} project in the
+    posts:
+      project_post:
+        exclusive: 支持者的独家发布。
+        unavailable: 这个新闻只对支持者有效。
+        contribute: 支持
+        unavailable_contribute: this project to view it.
+        destroy: 删除物品
+        destroy_confirmation: 你想删除这个新闻吗？
+      new:
+        notice: 新闻已发布！
+        comment: 新闻评论
+        exclusive: 只对支持者可见
+        submit: 提交新闻
+        title: 新闻标题
+        warning: 切记每一个提交新闻都会发给你的支持者，所以请详细审阅后发布。
+    project_reports:
+      all_contributions_without_reward: 下载没有选择奖励的支持者报告
+      link_reports_confirmed: 下载已经确认的支持者的报告
+      link_reports_waiting_confirmation: 下载所有打印票据的支持者的报告
+      link_reward: 从 %{value} 下载奖励报告
+    project_about:
+      embed: "&lt;embed&gt;"
+      embed_title: 集成设计到网站
+      active_btn: 忘记密码?
+      deactive_btn: 主动提醒
+    show:
+      menu:
+        panel_html: 控制面板
+        about: 关于
+        add_reward: 添加奖励
+        comments: 评论
+        contributions: 支持
+        metrics: 参数
+        edit: 版本
+        reports: 报告
+        posts: 新闻
+    project_sidebar:
+      contributors_call: 支持
+      contributors_count:
+        one: 1 个人
+        other: "{{count} 个人"
+      subscribers_call: 签字
+      remaining_time:
+        days:
+          one: 剩余天
+          other: 剩余天数
+        hours:
+          one: 剩余小时
+          other: 剩下小时数
+        minutes:
+          one: 剩余分钟
+          other: 剩下分钟数
+        seconds:
+          one: 剩余秒
+          other: 剩余秒数
+        dias:
+          one: 剩余天
+          other: 剩余天数
+        horas:
+          one: 剩余小时
+          other: 剩下小时数
+        minutos:
+          one: 剩余分钟
+          other: 剩下分钟数
+        segundos:
+          one: 剩余秒
+          other: 剩余秒数
+        dia: 剩余天
+        hora: 剩余小时
+        minuto: 剩余分钟
+        segundo: 剩余秒
+      display_status:
+        approved: 这个项目已经被CJTech批准。不久项目就会发表收到反馈。
+        online: 项目截止日期是 %{date} 23:59:59
+        failed: 这个项目没有在规定时间内%{date}达到最低资金要求%{goal}，所以不成功
+        rejected: 这个项目已经被取消，无法获得支持 ..
+        in_analysis: 这个项目还在审阅，暂时无法接受支持
+        successful: 这个项目已经在 %{date} 成功募集资金
+        waiting_funds: The funding deadline for this project is now closed. We are
+          awaiting confirmation of the latest payments.
+        draft: This project is only a draft and still can not receive support.
+      submit_aon: 支持这个项目
+      submit_flex: 支持这个项目
+      submit_sub: 订阅这个项目
+    project_main:
+      post_call: 所有在网站发布的新闻都会发给支持项目的人的邮件，新闻也可在网站上浏览。你可以把新闻设置为公开或只对支持者开发。
+      send_post: 编辑新闻
+      share: 股份
+      tweet: Tweet
+      project_by: 项目开发
+      funding_period: 项目募集时间
+      project_header:
+        subtitle_html: %{link}
+        without_city: 项目
+        with_city: 此项目%{category_name} 由%{author}在 %{city}创建
+      menu:
+        about: 关于
+        add_reward: 添加奖励
+        comments: 评论
+        contributions: 支持
+        metrics: 参数
+        edit: 版本
+        reports: 报告
+        posts: 新闻
+      no_rewards_warning: 'Do not travel! Think about how you will hand them over
+        and put it all in the budget. Prometheus?! COMPLY! : D'
+      no_rewards_warning_title: Create your rewards here
+      contribution_states:
+        confirmed: 确认
+        pending: 等待
+      sidebar:
+        contributions: 支持
+        goal: 募集到资金 %{total}
