@@ -1,0 +1,96 @@
+zh-CN:
+  users:
+    edit:
+      settings_tab:
+        credit_cards:
+          title: 信用卡
+          subtitle: If any project you have contributed to <strong>with Credit Card</strong>
+            is not successful, we will <strong>automatically</strong> refund the card
+            used to make the contribution.
+          card_label: 卡
+          provider_label: 操作员
+          remove_label: 去除
+        update_success_msg: 你的信息已经被更新
+        legal_title: 负责
+        legal_subtitle: "<strong>IMPORTANT</strong> Full name / Corporate name and
+          CPF / CNPJ <strong>can not be modified</strong> after being saved."
+        account_types:
+          pf: 普通人
+          pj: 法人
+          mei: 法人代表 (个人 企业主 - MEI)
+        pf_label_name: 全名
+        pj_label_name: 全名 / 公司名
+        pf_label_document: CPF
+        pj_label_document: CNPJ
+        label_birth_date: 出生日期
+        label_state_inscription: 注册省
+        address_title: 地址
+        address_subtitle: 地址信息会用来做发票发送。
+        label_country: 母公司
+        label_address_street: 街道
+        label_address_number: 门牌号
+        label_address_complement: 补充
+        label_address_neighbourhood: 邻居
+        label_address_city: 市
+        label_address_state: 省
+        label_other_option: 其他
+        label_address_zipcode: 邮编
+        label_address_phone: 电话
+      email_confirmation:
+        hello: 你好 %{name}
+        hello_sub: 我们联系你遇到了困难 ...
+        hello_email: 这是你的邮件吗？ %{email}
+        confirmed_title: 请检查你的邮箱
+        confirmed_sub: 检查你的垃圾邮件.
+      contributions: 支持
+      projects: 创建
+      about_me: 关于你
+      settings: 数据和地址
+      notification: 通知
+      billing: 银行和卡
+      profil: 回到公共介绍
+      feeds: 活动
+      submit: 保存
+      contributions_fields:
+        no-project: 你还没有贡献任何项目 ...
+        contribute: 现在就行动！
+      about_fields:
+        add_link: "+ 添加链接"
+        image_title: 简介图片
+        image_description: 这个图片会用于你的简介的缩略图 (PNG,
+          JPG 大小 280x280)
+        cover_title: 简介封面图片
+        cover_description: 这个图片会作为你的公共简介的背景 (PNG or JPG)。如果你未提交图片，我们会用你的简介图片替代。
+        profil_address_title: 你的简介地址
+        profil_address_description: 你的公共链接可能包含了
+        name: 名字
+        name_description: 这个名字用户可以在公共简介中看到
+        faceebook: Facebook 简介
+        facebook_description: 粘贴你的简介链接
+        twitter: Twitter 简介
+        twitter_description: 粘贴你的简介链接
+        homepage: 网站
+        homepage_description: 提供链接给用户可以对你有更深入的了解。
+        about: 关于
+        about_description: 关于自己的介绍，确保你提供所有相关信息。
+      billing_fields:
+        credit_card: 信用卡
+        card_message: If any project you have contributed to <b>with Credit Card</b> is
+          not successful, we will <b>automatically</b> refund the card used to make
+          the contribution.
+        card: 卡
+        operator: 操作员
+        bank_account: 银行数据
+        bank_account_message: If any project you have contributed to <b>with Boleto Bancaria
+          is</b> not successful, we will <b>automatically</b> refund your payment
+          to the account indicated below.
+      notifications_fields:
+        newsletters:
+          750382:
+            title: 周报
+            description: 我们团队亲自选取的推荐项目
+            image_src: http://uploads.webflow.com/5849f4f0a275a2a744efd93e/59a714d438c73b0001ee8d83_news-img.jpg
+          1370135:
+            title: 专业新闻
+            description: 漫画, 卡片游戏, RPGs 和 数字游戏。
+            image_src: http://uploads.webflow.com/5849f4f0a275a2a744efd93e/59a713dde51ca0000149ae85_geek-news-img.jpg
