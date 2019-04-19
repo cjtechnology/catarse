@@ -35,9 +35,14 @@ zh-CN:
       texts:
         copyleft: Made with love.
         email: 你的邮件地址
+        make_a_campaign: 举办活动
+        explore: 搜索项目
       titles:
         about: 帮助
         contact: 欢迎
         newsletter: Newsletter
         sitemap: Sitemap
         social: 社交媒体
+      locales:
+        english: 英文
+        chinese: 中文
