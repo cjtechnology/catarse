@@ -13,5 +13,5 @@ zh-CN:
     other: " %{count}个项目已创建"
   contributed_project:
     zero: 还未对项目有贡献
-    one: 贡献了 %{count} 个项目
-    other: 贡献了 %{count} 个项目
+    one: "贡献了 %{count} 个项目"
+    other: "贡献了 %{count} 个项目"

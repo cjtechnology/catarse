@@ -24,4 +24,4 @@ zh-CN:
       edit_reward: 编辑奖励
       new_reward: 奖励
       reward_deliver_time: "<b>预计送达日:</b> %{estimate}"
-      reward_title: %{minimum} 或更多
+      reward_title: "%{minimum} 或更多"
