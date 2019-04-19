@@ -1,0 +1,46 @@
+pt:
+  shared:
+    value_text: 'Value'
+    save_text: 'Save'
+    back_text: 'Back'
+    confirm_text: 'Confirm'
+    load_more: 'Load More'
+    currency: 'AUD$ %{amount}' 
+    shipping_options:
+      free: 'No freight involved'
+      national: 'National Freight'
+      international: 'National and International Freight'
+      presential: 'Withdrawal'
+    successful_update: 'Your information has been updated'
+    failed_update: 'Error saving information'
+    account_type_value: 'We only accept checking account'
+    no_bank_label: 'Other'
+    alerts:
+      pending_payment_text: "You have outstanding repayments."
+      pending_payment_link_text: "Decide what to do with your money here!"
+    terms: Terms
+    accept_terms_html: "I have read and I agree with the %{link}."
+    header_channel:
+      contact: Contact
+      logout: Logout
+      my_credits: My credits
+      partners: About Us
+      posts: News
+      profile: My profile
+      signin: Login
+      signup: Signup
+      submit: Submit
+      how_work: How it works
+    footer_channel:
+      contact: Contact
+      how_works: How it works
+      privacy_policy: Privacy policy
+      terms: Terms of use
+      what_is_channel: What are placements?
+      terms: Terms of use
+      privacy_policy: Privacy policy
+      how_it_works: "How does the %{name}"
+      how_channels_work: "Understand the Cataring Channels"
+      contact: "Contact"
+    header_big:
+      projects: "My projects"

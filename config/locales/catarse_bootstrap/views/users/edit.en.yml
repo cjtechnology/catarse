@@ -42,7 +42,7 @@ en:
         hello_email: Is this your contact email? %{email}
         confirmed_title: Be sure to check our emails!
         confirmed_sub: Check your SPAM and authorize Real Capital emails.
-      contributions: contributions
+      contributions: Contributions
       projects: Projects
       about_me: About you
       settings: Data and address

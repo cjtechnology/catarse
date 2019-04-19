@@ -14,14 +14,14 @@ en:
       header:
         people: People have already supported at least 01 project in Catarse
         success: Projects have already been funded here
-        money: They were invested in ideas published in Catarse
+        money: They were invested in ideas published in Real Capital
       banner:
         1: Supporters
         2: Your friends, family and interested in the project.
         3: Rewards
         4: It&#39;s what you offer in exchange for the supports.
         5: Goal
-        6: How much do you want to collect on Catarse.
+        6: How much do you want to collect on Real Capital.
         7: Time
         8: This is the period when your campaign will be open to receiving support.
       features:
@@ -38,7 +38,7 @@ en:
         subtitle: Feel the taste ...
         src: z7FBAjkcLG8
       categories:
-        title: The Catarse has room for several types of projects! Meet our categories!
+        title: The Real Capital has room for several types of projects! Meet our categories!
         pledged: You raised $ {pledged}} with {{contributors}} support for the project
         loading_featured: loading highlighted project ...
         no_featured: No featured projects.
@@ -227,7 +227,7 @@ en:
       qa:
         col_1:
           1:
-            question: Why campaign on Catarse?
+            question: Why campaign on Real Capital?
             answer: Firstly because we are extremely committed and passionate about
               what we do and want to see your project funded. But also because we
               are the first and largest platform in action in Brazil. We are working
