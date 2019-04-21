@@ -1,7 +1,10 @@
 pt:
   shared:
+    advanced_filter: Filtros avançados
+    search_text: 'Buscar'
     value_text: 'Valor'
     save_text: 'Salvar'
+    cancel_text: 'Cancelar'
     back_text: 'Voltar'
     confirm_text: 'Confirmar'
     load_more: 'Carregar mais'

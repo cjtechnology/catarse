@@ -140,6 +140,7 @@ CatarseSettings[:common_db_user] = 'xiaoyilu'
 CatarseSettings[:common_db_port] = '5432'
 CatarseSettings[:common_db_password] = 'Password1'
 CatarseSettings[:common_db_name] = 'service_core'
+CatarseSettings[:company_name]= 'Real Capital'
 
 Need this:
 create role catarse;
