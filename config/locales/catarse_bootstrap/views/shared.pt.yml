@@ -1,5 +1,9 @@
 pt:
   shared:
+    settings: Configurações
+    projects: Projetos
+    users: Usuários
+    user: Usuário
     advanced_filter: Filtros avançados
     search_text: 'Buscar'
     value_text: 'Valor'

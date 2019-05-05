@@ -1,5 +1,9 @@
 en:
   shared:
+    settings: Settings
+    projects: Projects
+    users: Users
+    user: User
     advanced_filter: Advanced Filters
     search_text: 'Search'
     value_text: 'Value'
