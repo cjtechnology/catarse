@@ -1,13 +1,12 @@
 zh-CN:
   projects:
     index_header:
-      subtitle: Fund projects collaboratively and become part of something bigger.
-        Promote a collective catarse! You are the missing piece in this story.
-      title: Make projects happen that you believe in
+      subtitle: 资助有潜力的项目。
+      title: 让项目变为现实。
     index:
       title: Catharsis
-      back_a_project: Support a project
-      banner_before: Remove
+      back_a_project: 资助项目
+      banner_before: 移除
       banner_words:
         0: dreams
         1: disks
@@ -28,19 +27,19 @@ zh-CN:
         16: comic books
         17: ideas
       banner_after: of paper
-      see_all: See all
-      near_you: Next to you
-      recents: Recent Updates
-      blog: Blog do Catarse
-      expiring: In the final stretch
-      recommended: Most Popular
+      see_all: 查看全部
+      near_you: 附近的人
+      recents: 最新更新
+      blog: 博客
+      expiring: 过期
+      recommended: 最受欢迎
       banner_subtitle: Music, comics, cinema, social impact, technology and more.
         Get to know, inspire and support projects.
       box:
         by: per
         when: in
-      banner: Know the research
-      explore: Explore projects
+      banner: 了解项目
+      explore: 查看项目
       explore_categories:
         16:
           icon: https://s3.amazonaws.com/cdn.catarse/assets/icon-music.png
@@ -53,30 +52,30 @@ zh-CN:
           title: Launch your book or magazine on Catarse!
           cta: Learn how
       links:
-        channels: Discover the Wings Channel
-        recommended: Discover Recommended Projects
-        expiring: Discover projects in the final stretch
-        recents: Discover recent projects
-        near: Discover projects near you
+        channels: 发现频道
+        recommended: 发现推荐项目
+        expiring: 发现入选项目
+        recents: 发现最新项目
+        near: 发现你附近的项目
       sidebar:
         titles:
-          blog: blog
-          facebook: did you like our face?
-          newsletter: Subscribe to our news
-          faq: Are you sure?
-          schedule: schedule
+          blog: 博客
+          facebook: 脸书?
+          newsletter: 订阅我们的新闻
+          faq: 问答?
+          schedule: 时间表
         placeholders:
-          email: Type your e-mail
+          email: 输入邮箱
         buttons:
-          newsletter: Submit
+          newsletter: 提交
       sections:
         near:
-          title: Next to me
+          title: 附近的
         recommended:
-          title: Most Popular
+          title: 最受欢迎的
         expiring:
-          title: In the final stretch
+          title: 过期
         recents:
-          title: Recent Updates
+          title: 最新更新
         channels:
-          title: Canal Asas
+          title: 频道访问
