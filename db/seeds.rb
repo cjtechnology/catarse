@@ -2,38 +2,43 @@
 
 puts 'Seeding the database...'
 
+Country.create(name: 'Australia', name_en: 'Australia')
+Country.create(name: 'China', name_en: 'China')
+state = State.create(name: 'West Australian', acronym: 'WA')
+City.create(name: 'Perth', state_id: state.id)
+
 [
-  { pt: 'Arte', en: 'Art', fr: 'Art'},
-  { pt: 'Artes plásticas', en: 'Visual Arts', fr: 'Art plastique' },
-  { pt: 'Circo', en: 'Circus', fr: 'Cirque' },
-  { pt: 'Comunidade', en: 'Community', fr: 'Comunauté' },
+  { pt: 'Art', en: 'Art', fr: 'Art'},
+  { pt: 'Visual Arts', en: 'Visual Arts', fr: 'Art plastique' },
+  { pt: 'Circus', en: 'Circus', fr: 'Cirque' },
+  { pt: 'Community', en: 'Community', fr: 'Comunauté' },
   { pt: 'Humor', en: 'Humor', fr: 'Humour' },
-  { pt: 'Quadrinhos', en: 'Comicbooks', fr: 'bd' },
-  { pt: 'Dança', en: 'Dance', fr: 'Dance' },
+  { pt: 'Comicbooks', en: 'Comicbooks', fr: 'bd' },
+  { pt: 'Dance', en: 'Dance', fr: 'Dance' },
   { pt: 'Design', en: 'Design', fr: 'Design' },
-  { pt: 'Eventos', en: 'Events', fr: 'Événementiel' },
-  { pt: 'Moda', en: 'Fashion', fr: 'Mode' },
-  { pt: 'Gastronomia', en: 'Gastronomy', fr: 'Gastronomie' },
-  { pt: 'Cinema e Vídeo', en: 'Film & Video', fr: 'Cinéma' },
-  { pt: 'Jogos', en: 'Games', fr: 'Jeux' },
-  { pt: 'Jornalismo', en: 'Journalism', fr: 'Journalisme' },
-  { pt: 'Música', en: 'Music', fr: 'Musique' },
-  { pt: 'Fotografia', en: 'Photography', fr: 'Photographie' },
-  { pt: 'Ciência e Tecnologia', en: 'Science & Technology', fr: 'Sciences et technologies' },
-  { pt: 'Teatro', en: 'Theatre', fr: 'Théatre' },
-  { pt: 'Esporte', en: 'Sport', fr: 'Sport' },
+  { pt: 'Events', en: 'Events', fr: 'Événementiel' },
+  { pt: 'Fashion', en: 'Fashion', fr: 'Mode' },
+  { pt: 'Gastronomy', en: 'Gastronomy', fr: 'Gastronomie' },
+  { pt: 'Film & Video', en: 'Film & Video', fr: 'Cinéma' },
+  { pt: 'Games', en: 'Games', fr: 'Jeux' },
+  { pt: 'Journalism', en: 'Journalism', fr: 'Journalisme' },
+  { pt: 'Music', en: 'Music', fr: 'Musique' },
+  { pt: 'Photography', en: 'Photography', fr: 'Photographie' },
+  { pt: 'Science & Technology', en: 'Science & Technology', fr: 'Sciences et technologies' },
+  { pt: 'Theatre', en: 'Theatre', fr: 'Théatre' },
+  { pt: 'Sport', en: 'Sport', fr: 'Sport' },
   { pt: 'Web', en: 'Web', fr: 'Web' },
-  { pt: 'Carnaval', en: 'Carnival', fr: 'Carnaval' },
-  { pt: 'Arquitetura e Urbanismo', en: 'Architecture & Urbanism', fr: 'Architecture et Urbanisme' },
-  { pt: 'Literatura', en: 'Literature', fr: 'Literature' },
-  { pt: 'Mobilidade e Transporte', en: 'Mobility & Transportation', fr: 'Transport et Mobilité' },
-  { pt: 'Meio Ambiente', en: 'Environment', fr: 'Environement' },
-  { pt: 'Negócios Sociais', en: 'Social Business', fr: 'Social' },
-  { pt: 'Educação', en: 'Education', fr: 'Éducation' },
-  { pt: 'Filmes de Ficção', en: 'Fiction Films' , fr: 'Films de fiction'},
-  { pt: 'Filmes Documentários', en: 'Documentary Films', fr: 'Films documentaire' },
-  { pt: 'Filmes Universitários', en: 'Experimental Films' },
-  { pt: 'Saúde', en: 'Health', fr: 'Santé' }
+  { pt: 'Carnival', en: 'Carnival', fr: 'Carnaval' },
+  { pt: 'Architecture & Urbanism', en: 'Architecture & Urbanism', fr: 'Architecture et Urbanisme' },
+  { pt: 'Literature', en: 'Literature', fr: 'Literature' },
+  { pt: 'Mobility & Transportation', en: 'Mobility & Transportation', fr: 'Transport et Mobilité' },
+  { pt: 'Environment', en: 'Environment', fr: 'Environement' },
+  { pt: 'Social Business', en: 'Social Business', fr: 'Social' },
+  { pt: 'Education', en: 'Education', fr: 'Éducation' },
+  { pt: 'Fiction Films', en: 'Fiction Films' , fr: 'Films de fiction'},
+  { pt: 'Documentary Films', en: 'Documentary Films', fr: 'Films documentaire' },
+  { pt: 'Experimental Films', en: 'Experimental Films' },
+  { pt: 'Health', en: 'Health', fr: 'Santé' }
 ].each do |name|
    category = Category.find_or_initialize_by(name_pt: name[:pt])
    category.update_attributes({

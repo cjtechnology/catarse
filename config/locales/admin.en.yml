@@ -14,6 +14,7 @@ en:
         order_desc: 'Goal desc'
         order_created_at: 'Submission date'
         last_modification: 'Last update'
+        menu: 'Admin projects'
     financials:
       index:
         submit: 'Filter'

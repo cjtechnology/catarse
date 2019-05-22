@@ -33,7 +33,7 @@ class User < ActiveRecord::Base
   mount_uploader :uploaded_image, UserUploader
   mount_uploader :cover_image, CoverUploader
 
-  validates :name, :cpf, presence: true, if: ->(user) { !user.reseting_password && (user.published_projects.present? || user.publishing_project || user.publishing_user_settings) }
+  validates :name, presence: true, if: ->(user) { !user.reseting_password && (user.published_projects.present? || user.publishing_project || user.publishing_user_settings) }
   validates :birth_date, presence: true, if: ->(user) { user.publishing_user_settings && user.account_type == 'pf' }
 
   validates_presence_of :email

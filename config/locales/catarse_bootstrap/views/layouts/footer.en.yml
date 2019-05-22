@@ -35,9 +35,14 @@ en:
       texts:
         copyleft: Made with love.
         email: Your Email address
+        make_a_campaign: Make a Campaign
+        explore: Explore projects
       titles:
         about: Help
         contact: Welcome
         newsletter: Newsletter
         sitemap: Sitemap
         social: Social media
+      locales:
+        english: English
+        chinese: Chinese

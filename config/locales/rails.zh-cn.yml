@@ -119,25 +119,25 @@ zh-CN:
       taken: 已被占用
       too_long:
         one: 太长 (最多一个字节)
-        other: 太长 (最多%{count}个字节)
+        other: "太长 (最多%{count}个字节)"
       too_short:
         one: 太短 (最少1个字节)
         other: 太短 (最少%{count}个字节)
       wrong_length:
         one: 错误长度 (应该一个字节)
-        other: 错误长度 (应该%{count}个字节)
+        other: "错误长度 (应该%{count}个字节)"
     template:
       body: ! '以下填写项有问题:'
       header:
-        one: %{model}有一个错误，无法保存
+        one: "%{model}有一个错误，无法保存"
         other: ! '%{model}有%{count} 个错误，无法保存'
   helpers:
     select:
       prompt: Please select
     submit:
-      create: 创建 %{model}
-      submit: 保存 %{model}
-      update: 更新 %{model}
+      create: "创建 %{model}"
+      submit: "保存 %{model}"
+      update: "更新 %{model}"
   number:
     currency:
       format:
@@ -147,7 +147,7 @@ zh-CN:
         separator: .
         significant: false
         strip_insignificant_zeros: false
-        unit: R$
+        unit: "R$"
     format:
       delimiter: ! ','
       precision: 3
@@ -206,4 +206,3 @@ zh-CN:
   activerecord:
     errors:
       <<: *errors
-

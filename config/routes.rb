@@ -167,8 +167,8 @@ Catarse::Application.routes.draw do
 
     get '/terms-of-use' => redirect('https://crowdfunding.catarse.me/legal/termos-de-uso')
     get '/privacy-policy' => redirect('https://crowdfunding.catarse.me/legal/politica-de-privacidade')
-    get '/start' => redirect('https://crowdfunding.catarse.me/comece')
-    get '/start-sub' => redirect('https://crowdfunding.catarse.me/comece')
+    get '/start' => 'high_voltage/pages#show', id: 'start'
+    get '/start-sub' => 'high_voltage/pages#show', id: 'start_sub'
     get '/jobs' => 'high_voltage/pages#show', id: 'jobs'
     get '/hello' => redirect('/start')
     get '/press' => redirect('https://crowdfunding.catarse.me/imprensa')

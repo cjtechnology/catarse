@@ -25,7 +25,7 @@ To run this project you need to have:
 
 * Rails 4.2
 
-* [postgREST 0.3](https://github.com/begriffs/postgrest/releases/tag/v0.3.0.3)
+* [postgREST 0.3](https://github.com/PostgREST/postgrest/releases/tag/v0.3.2.0)
 
 * [PostgreSQL 9.4](http://www.postgresql.org/)
   * OSX - [Postgres.app](http://postgresapp.com/)
@@ -140,6 +140,7 @@ CatarseSettings[:common_db_user] = 'xiaoyilu'
 CatarseSettings[:common_db_port] = '5432'
 CatarseSettings[:common_db_password] = 'Password1'
 CatarseSettings[:common_db_name] = 'service_core'
+CatarseSettings[:company_name]= 'Real Capital'
 
 Need this:
 create role catarse;

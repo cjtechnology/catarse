@@ -41,9 +41,9 @@ en:
         hello_sub: We are having trouble talking to you ...
         hello_email: Is this your contact email? %{email}
         confirmed_title: Be sure to check our emails!
-        confirmed_sub: Check your SPAM and authorize Catarse emails.
-      contributions: Supported
-      projects: Created
+        confirmed_sub: Check your SPAM and authorize Real Capital emails.
+      contributions: Contributions
+      projects: Projects
       about_me: About you
       settings: Data and address
       notification: Notifications
@@ -52,9 +52,10 @@ en:
       feeds: Activities
       submit: To save
       contributions_fields:
-        no-project: You have not yet contributed to any projects in Catarse ...
+        no-project: You have not yet contributed to any projects in Real Capital ...
         contribute: Support now!
       about_fields:
+        alter_email: Change Email
         add_link: "+ Add link"
         image_title: Profile picture
         image_description: This image will be used as your profile thumbnail (PNG,
@@ -98,5 +99,5 @@ en:
           1370135:
             title: Geek News
             description: Comics, boardgames, RPGs and digital games, inside and outside
-              the Catarse.
+              the Real Capital.
             image_src: http://uploads.webflow.com/5849f4f0a275a2a744efd93e/59a713dde51ca0000149ae85_geek-news-img.jpg

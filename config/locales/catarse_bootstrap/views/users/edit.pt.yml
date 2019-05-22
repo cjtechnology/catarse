@@ -52,6 +52,7 @@ pt:
         no-project: "Você ainda não apoiou nenhum projeto no&nbsp;Catarse..."
         contribute: "Apoie agora!"
       about_fields:
+        alter_email: Alterar email
         add_link: "+ Adicionar link"
         image_title: "Imagem do perfil"
         image_description: "Essa imagem será utilizada como a miniatura de seu perfil (PNG, JPG tamanho 280 x 280)"

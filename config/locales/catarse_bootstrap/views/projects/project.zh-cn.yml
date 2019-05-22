@@ -1,9 +1,9 @@
 en:
   projects:
     explore:
-      want_see: I want to see
-      all_projects: All projects
-      about_us: about_us
+      want_see: 我想要看
+      all_projects: 全部项目
+      about_us: 关于我们
     home:
       header_html: Crowdfunding and collective financing in Brazil is not Catarse
       row_title: Most Popular
