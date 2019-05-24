@@ -1,0 +1,100 @@
+zh-CN:
+  simple_form:
+    collections:
+      project:
+        traffic_sources:
+          one：我已经在Catarse有另一个项目
+          two：表示已经在Catarse有过项目的人
+          three: 朋友/同事/专业联系人
+          four: 来自他在平台上捕获的项目
+          five: 博客中的文章
+          six: 新闻报道（互联网新闻门户，电视，报纸，杂志）
+          seven: 在课堂/课程/讲座/活动中
+          eight: 我在互联网上搜索了集体融资/替代方案
+            资金形式
+          nine: 其他
+    validation_texts:
+      reward:
+        minimum_value: 输入大于或等于10的最小值
+        description: 请提供奖励说明
+      bank_account:
+        input_bank_number: Invalid bank number
+        bank_id: 选择一个银行
+        agency: 银行机构号是多少?
+        account: 账户号码是多少?
+        account_digit: 校验位是多少？
+        agency_digit: 代理商的数字是多少？
+        owner_name: 输入最少5个，最多30个字母的名称
+        owner_document: 为帐户持有者输入有效的CPF或CNPJ
+      contribution:
+        payer_name: 请输入贡献者的姓名
+        payer_email: 请输入有效的电子邮件
+        payer_document: 请输入有效的CPF或CNPJ
+        address_state: 选择一个州
+        address_street: 输入街道名称
+        address_number: 输入地址编号
+        address_neighbourhood: 输入邻域的名称
+        address_city: 输入城市名称
+        address_zip_code: 输入邮政编码
+        address_phone_number: 输入电话号码
+    prompts:
+      project:
+        category: 选择一个类别
+        select: 选择一个选项
+        traffic_sources: 你在哪里了解本网站？
+    hints:
+      flexible_project:
+        select: 选择一个选项
+        traffic_sources: 你怎么了解到本网站
+        name: 给出一个人们会很容易记住的名字。不要超过50个字符。
+        all_tags: 报告以逗号分隔的标签
+        all_public_tags: 最多可列出5个与您的广告系列相关的关键字
+          贡献者发现。
+        permalink: 您可以对其进行编辑，直到项目联机。选择一些东西
+          简单，直接，并很好地识别您的项目。尽量不要使用
+          连字符，下划线等
+        category: 选择最适合您项目的那个。
+        city: 你的项目将在哪里进行？如果它发生在多个
+          地方，一个提示是把城市放在你的网络潜在贡献者
+          是最伟大的。
+        goal: 计划与项目建议一致的目标。评论
+          您的预算，并确保包括Catarse收取的13％的费用。
+        online_days: 您可以为广告系列选择1到60天。校验
+          在导演指南中提供截止日期的提示。
+        video_url: 您在Vimeo或YouTube上的视频链接。
+        about_html: '充满激情和清晰地讲述将要完成的事情。
+          澄清有关如何使用资金，背后是谁的可能问题
+          项目，项目将如何以及何时交付。透明度吸引
+          更多贡献者。请记住：您的项目将由普通人访问谁将决定是否支持您的项目。 
+        headline: 项目卡上的短语呼叫贡献者。必须有一个最大值
+          100个字符，很好地总结了项目。
+        uploaded_image: 此图片将用作项目的缩略图（PNG，
+          JPG尺寸600 x 340）
+      project:
+        select: 选择一个账户
+        traffic_sources: How did you first meet Catarse?
+        name: 给出一个人们会很容易记住的名字。不要超过50个字符。
+        all_tags: 报告以逗号分隔的标签
+        all_public_tags: 最多可列出5个与您的广告系列相关的关键字
+          贡献者发现。
+        permalink: 您可以对其进行编辑，直到项目联机。选择一些东西
+          简单，直接，并很好地识别您的项目。尽量不要使用
+          连字符，下划线等
+        category: 选择最适合您项目的那个。
+        city: 你的项目将在哪里进行？如果它发生在多个
+          地方，一个提示是把城市放在你的网络潜在贡献者
+          是最伟大的。
+        goal: 计划与项目建议一致的目标。评论
+          您的预算，并确保包括Catarse收取的13％的费用。
+        online_days: 您可以为广告系列选择1到60天。校验
+          在导演指南中提供截止日期的提示。
+        video_url: 您在Vimeo或YouTube上的视频链接。
+        about_html: '充满激情和清晰地讲述将要完成的事情。
+          澄清有关如何使用资金，背后是谁的可能问题
+          项目，项目将如何以及何时交付。透明度吸引
+          更多贡献者。请记住：您的项目将由普通人访问
+          谁将决定是否支持您的项目。'
+        headline: 项目卡上的短语呼叫贡献者。必须有一个最大值
+          100个字符，很好地总结了项目。
+        uploaded_image: 此图片将用作项目的缩略图（PNG，
+          JPG尺寸600 x 340）
