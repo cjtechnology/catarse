@@ -1,0 +1,77 @@
+zh-CN:
+  pages:
+    hello:
+      page-title: 了解更多
+      hero:
+        title: 采取纸张设计！
+        people_html: 人们已经支持至少1个项目没有Catarse
+        projects_html: 项目已经没有资金
+        money_html: 捐赠给在这里发布的项目
+        success: 项目已经在Catarse资助
+        money: 捐赠给这里发布的项目        
+      idea:
+        title: 这一切都始于一个项目！
+        subtitle: 但是有一个项目是不够的。您需要访问人员
+          你关心和实现它所需的资源。
+      fund:
+        title: 集体融资
+        subtitle: 在Catarse，这是可能的。多类别项目经理连接
+          对有兴趣提供小额赠款的支持者。
+      campaign:
+        title: 收集活动
+        subtitle: 董事们有最多60天的时间来捕捉他们的财务目标
+          已经确定要进行该项目。为了换取支持，
+          他们提供创造性的奖励。
+      allornothing:
+        title: 一切或全无！
+        subtitle: 目标是及时击败目标以获得筹集的金额
+          或者所有支持者都会收到退款。规划活动是秘密！
+      success:
+        title: 该项目离开了论文。
+        subtitle: 支持者希望看到项目发生。随着成功
+          活动，电影制作人制作项目并准备奖励
+          对支持者！
+      cta:
+        title: 在实践中了解Catarse
+        backer-cta: 成为支持者，帮助人们，并获得独特的奖励
+        backer-link: 支持项目
+        maker-cta: 做一名导演，向世界展示你的项目并收钱
+        maker-link: 启动你的项目
+      testimonial:
+        humberto:
+          text_html: “”这是一个被邀请分享的迷人机会
+            一个人的梦想，仍然可以获得经验奖励。 ＆QUOT;”
+          name: Humberto Figueira
+          credentials: 支持网站的150多个项目
+      details:
+        fund:
+          title: 集体融资还是众筹？
+          text: 人们贡献小额金额的同一种做法的两个名称
+            赚钱使项目可行。人群是英语，资金，
+            资金。众筹是由人群提供资金。
+        allornothing:
+          title: 为什么全有或全无？
+          text_html: 我们相信“全有或全无”。因为，在
+            除了活动之外，它还是确保项目成功的一种方式
+            只有在可以按照已经描述和承诺的方式交付时才会发生
+            对支持者。
+        services:
+          title: 我们的服务
+          text: Catarse为站点用户提供支持，使项目成为可能
+            使用互联网快速轻松地捕获资源。任何人
+            年龄18岁（或更年轻，但有法定代表人）可以使用我们的
+            只要项目满足，就可以提供服务并开展众筹活动
+            我们的选择标准。
+        fees:
+          title: 我们的立场
+          text: 我们收取已达到或超过的项目总价值的13％
+            收集目标。我们得到约9％，4％被转移到Pay.me，付款
+            在网站中使用的方法。没有达到目标的项目没有
+            任何费用和所有支持者都会收到退款。
+        work:
+          title: 我们与目的和爱一起工作。
+          text: Catarse是独立的，开源的，并且充满了爱。我们的激情
+            是建立一个越来越多的项目可以生活的环境。
+            今天我们是一个由23人组成的团队，非常愿意帮助分发更多
+            整个澳洲和世界的项目资源。
+      staff: 这些是我们中的一些人在等你从纸上拿出一个项目......
