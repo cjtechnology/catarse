@@ -1,0 +1,315 @@
+en:
+  pages:
+    start:
+      header_html: Catarse  - 用纸做你的设计
+      description: Catarse是第一个也是最大的众筹平台，或者
+        集体融资，在巴西。来吧，从纸上采取项目！
+      title: 集体资助您的项目
+      tagline: 全球众筹和集体融资
+      page-title: 网站如何发挥作用？
+      page-subtitle: 了解集体融资活动的基本支柱
+      submit: 免费试用
+      learn-more: 了解更多
+      slogan: 把你的设计从纸上拿下来
+      header:
+        people: 人们已经在Catarse中支持过至少01个项目
+        success: 项目已经在这里获得资助
+        money: 他们投资网站发表的想法
+      banner:
+        1: 支持者
+        2: 你的朋友，家人和对项目感兴趣。
+        3: 奖励
+        4: 它是你提供的以换取支持的东西。
+        5: 目标
+        6: 你想在Catarse上收集多少钱？
+        7: 时间
+        8: 这是您的广告系列开放接受支持的时间段。
+      features:
+        title: 您广告系列的理想平台
+        subtitle: 了解我们为您开发的解决方案，为您的创意提供资金！
+        feature_1: 没有官僚主义的空气中
+        feature_2: 快速响应的服务
+        feature_3: 完整的控制面板
+        feature_4: 广告系列博客
+        feature_5: 部分支持
+        feature_6: 轻松转移
+      video:
+        title: 集体资助活动保证令人兴奋。
+        subtitle: 感受味道......
+        src: z7FBAjkcLG8
+      categories:
+        title: RealCapital有几种类型的项目空间！认识我们的类别！
+        pledged: 您通过{{contributors}}支持项目筹集了$ {pledged}}
+        loading_featured: 加载突出显示的项目...
+        no_featured: 没有特色项目。
+      categoryProjects:
+        1:
+          category_id: 23
+          sample_project_ids:
+            primary: 4142
+            secondary: 1550
+        2:
+          category_id: 1
+          sample_project_ids:
+            primary: 6914
+            secondary: 9438
+        3:
+          category_id: 18
+          sample_project_ids:
+            primary: 17453
+            secondary: 1705
+        4:
+          category_id: 13
+          sample_project_ids:
+            primary: 10519
+            secondary: 17219
+        5:
+          category_id: 31
+          sample_project_ids:
+            primary: 9670
+            secondary: 16012
+        6:
+          category_id: 21
+          sample_project_ids:
+            primary: 14610
+            secondary: 10786
+        7:
+          category_id: 17
+          sample_project_ids:
+            primary: 7917
+            secondary: 12993
+        8:
+          category_id: 10
+          sample_project_ids:
+            primary: 16912
+            secondary: 7695
+        9:
+          category_id: 14
+          sample_project_ids:
+            primary: 5710
+            secondary: 15915
+        10:
+          category_id: 15
+          sample_project_ids:
+            primary: 9521
+            secondary: 15004
+        11:
+          category_id: 20
+          sample_project_ids:
+            primary: 11366
+            secondary: 8024
+        12:
+          category_id: 7
+          sample_project_ids:
+            primary: 14391
+            secondary: 11694
+        13:
+          category_id: 19
+          sample_project_ids:
+            primary: 11113
+            secondary: 12138
+        14:
+          category_id: 16
+          sample_project_ids:
+            primary: 11812
+            secondary: 15251
+        15:
+          category_id: 9
+          sample_project_ids:
+            primary: 22454
+            secondary: 20105
+        16:
+          category_id: 29
+          sample_project_ids:
+            primary: 11470
+            secondary: 6997
+        17:
+          category_id: 27
+          sample_project_ids:
+            primary: 18964
+            secondary: 8583
+        18:
+          category_id: 3
+          sample_project_ids:
+            primary: 11847
+            secondary: 10800
+        19:
+          category_id: 4
+          sample_project_ids:
+            primary: 6519
+            secondary: 14762
+        20:
+          category_id: 8
+          sample_project_ids:
+            primary: 9531
+            secondary: 13592
+        21:
+          category_id: 12
+          sample_project_ids:
+            primary: 2073
+            secondary: 9744
+        22:
+          category_id: 28
+          sample_project_ids:
+            primary: 14594
+            secondary: 16322
+        23:
+          category_id: 11
+          sample_project_ids:
+            primary: 13425
+            secondary: 7391
+        30:
+          category_id: 30
+          sample_project_ids:
+            primary: 2895
+            secondary: 8389
+      panes:
+        1:
+          label: 在没有官僚主义的空气中
+          src: "/assets/start-publicar.gif"
+        2:
+          label: 快速响应的服务
+          src: "/assets/start-attending-ui.gif"
+        3:
+          label: 完整的控制面板
+          src: "/assets/start-painel-ui.gif"
+        4:
+          label: 活动博客
+          src: "/assets/start-blog-ui.gif"
+        5:
+          label: 部分支持
+          src: "/assets/start-apoio.gif"
+        6:
+          label: 轻松转移
+          src: "/assets/start-repasse.gif"
+      testimonials_title: 大家如何评价 ...
+      testimonials:
+        1:
+          thumb: "/assets/start/thumb-marcela.jpg"
+          content: 我对金贻贝的基因组进行了测序。我共同出资
+            我的博士研究。这种模式可以改变世界。
+          name: Marcela Uliano
+          totals: 在344人的帮助下筹集了40,736雷亚尔以使其可行
+            金贻贝的基因组计划。
+        2:
+          thumb: "/assets/start/thumb-tiago.jpg"
+          content: 你在做什么？面对面。是的，只有激励法
+            有名的人受益。所以，你要停下来吗？停止
+            抱怨并选择另一种选择。
+          name: Tiago Vieira
+          totals: 在203人的帮助下筹集了34,260雷亚尔以使其可行
+            该项目“当我不再担心运河”时。电影
+            最终在戛纳。 ;）
+        3:
+          thumb: "/assets/start/thumb-natalia.png"
+          content: 一位优秀的记者知道获得资金为这个故事提供资金是多么困难
+            他的梦想，仍然有编辑独立性实际写
+            他发现了什么。
+          name: Natalia Viana
+          totals: 当获得1771支持执行2时，它筹集了129,159雷亚尔
+            公共调查新闻机构的项目
+        4:
+          thumb: "/assets/start/thumb-apanhador.jpg"
+          content: 我们有其他融资方式，但您选择众筹
+            因为你相信这种方式。公众越有决定权
+            在手，越多越好。
+          name: Alexandre Kumpinski（仅限接球手）
+          totals: 在收到2181份支持后，它筹集了163,600雷亚尔
+            2个项目
+        5:
+          thumb: "/assets/start/thumb-larissa.png"
+          content: 我知道那里有200多人和我一起发送正面信息
+            能量，欢呼，成为它的一部分，和我一起走向奥运会。
+          name: Larissa Juk
+          totals: 当获得对拉里萨的218支持时，它筹集了28,532雷亚尔
+            Juk项目迈向2016年里约奥运会
+      qa_title: 还有疑问?
+      qa:
+        col_1:
+          1:
+            question: 为什么选择RealCapital？
+            answer: 首先是因为我们非常投入和热情
+              我们做了什么，并希望看到您的项目获得资助。但也因为我们
+              是巴西第一个也是最大的平台。我们正在努力
+              独立开发巴西和巴西的项目融资方案
+              让更多人能够使他们的想法，梦想和愿景变得可行。
+          2:
+            question: 加入RealCapital活动太难了吗？
+            answer: RealCapital中的每个项目都有自己的特殊性和
+              工作量各不相同。在RealCapital上注册项目非常简单，
+              但是一场运动有其挑战。关键是要有良好的竞选活动
+              规划！我们能帮你！ <a href="#start-form">刚开始草稿。</a>
+          3:
+            question: RealCapital是否选择了播出的项目？
+            answer: 不可以。您可以直接创建草稿并发布广告系列
+              网站，随时随地。但是，有一些<a href="http://suporte.catarse.me/hc/pt-br/articles/202387638-Diretrizes-para-cria%C3%A7%C3%A3o-de-projetos">规则
+              用于创建项目</a>，您必须遵循以便您的项目
+              公布后没有被社区报道的风险。
+          4:
+            question: 谁可以使用RealCapital？
+            answer: RealCapital为网站用户提供支持并使其成为可能
+              利用互联网快速轻松地捕获资源的项目。
+              任何超过18岁（或更年轻，但有法定代表人）的人都可以使用
+              我们的服务和众筹活动。
+        col_2:
+          1:
+            question: 我是否需要达到接收我的钱的目标？
+            answer: 这取决于您选择的融资类型。在“全部
+              或者没什么“模特，如果你到达收藏品，你只能得到钱
+              您规定的竞选时间目标。如果项目没有
+              达到收藏目标，我们将全额退还给您的支持者，
+              免费给您或您的支持者。 <br> <br>已经灵活
+              融资模式，被亲切地称为“Flex”，你得到了所有
+              无论是否击中目标，你都能得到的钱。您可以
+              更好地理解模型之间的区别是什么
+              适合您的项目<a href="http://fazum.RealCapital.me/tudoounada-ou-flex?ref=ctrse_start">电子书
+              我们准备好了。</a>
+          2:
+            question: 我们的费率是多少？
+            answer: 在All或Nothing模型中，RealCapital只收取总数的13％
+              如果达到目标的100％或更多，则收取的金额。除此以外，
+              我们会将钱退还给支持者，不会向任何人收费
+              任何东西。 <br> <br>在Flex模型中，RealCapital收取总费用的13％
+              由广告系列收集。如果项目没有收集任何东西，
+              不收费。 <br> <br>如果你想知道为什么我们收费
+              这个佣金和我们投资的地方，请查看我们的<a href="http://crowdfunding.catarse.me/nossa-taxa?ref=ctrse_start">特别之处
+              （并且透明！）页面谈论我们的费率。</a>
+          3:
+            question: 我项目的资金来自哪里？
+            answer: 您的家人，朋友，粉丝和社区成员
+              部分是你最大的贡献者。你动摇了这个网络，赢了
+              支持和推动项目。支持者宣传和推荐
+              他们对他们所知道的其他人的竞选，以及支持者的圈子
+              增长，活动获得支持。关键是建立一个好项目，
+              详细规划您的广告系列，并了解如何定位您的宣传工作
+              那些真正关心你在众筹中提出的建议的人
+              运动。
+          4:
+            question: 如果我还有疑问，需要怎么做?
+            answer: '<a href="http://suporte.catarse.me/hc/pt-br">访问我们的支持中心</a> 或者邮件联系我们: admin@cjtech.info'
+      form:
+        title: 我想开始一个名为的活动
+        select_default: 选择一个类别
+        submit: 开始您的草稿
+      mode:
+        title: 三种型号。一费。
+        subtitle: 在RealCapital，您可以选择理想的集体融资方式
+          您的广告系列，无需支付任何额外费用！
+        aon:
+          info: 在广告系列结束时，只有到达后才能获得资金
+            收集目标。
+          info_2: '空中最长时间：60天'
+        flex:
+          info: 在广告系列结束时，即使没有，您也可以获得所有资金
+            达到收集目标。
+          info_2: '空中最长时间：12个月'
+        sub:
+          info: 您可以从您的粉丝群和粉丝获得每月付款。
+          info_2: 测试版。 2019年推出。
+          more_link: <a href =“https://crowdfunding.catarse.me/assinaturas?ref=catarse_start_beta”
+            class =“alt-link”target  - “_ blank”>了解更多</a>
+        tax_info: '费率：收取的总数的13％'
+        failed_info: 广告系列全部或没有达不到目标的任何内容都不付费
+          任何东西。
+        more_link: <a href =“http://fazum.catarse.me/tudoounada-ou-flex?utm_source=start&utm_medium=link&utm_content=Saiba%20mais%20sobre%20as%20taxas%20e%20modalidades&utm_campaign=ebook-tudoounada-flex”
+          class =“alt-link”target  - “_ blank”>了解有关费率和模式的详情</a>
