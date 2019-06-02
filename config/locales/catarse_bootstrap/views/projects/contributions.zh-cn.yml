@@ -25,14 +25,14 @@ zh-CN:
         aon: contributors who had already contributioned a project in Catarse
         flex: contributors who had already contributioned a project in Catarse
         sub: subscribers who had already signed a project in Catarse
-      user_since: Caching Account since %{date}
-      backed_projects: Supported %{count} projects
-      created_projects: Created %{count} projects
+      user_since: "Caching Account since %{date}"
+      backed_projects: "Supported %{count} projects"
+      created_projects: "Created %{count} projects"
       survey:
         survey: 问卷
         address_title: 姓名和住址
         address_neighbourhood: 'Neighborhood:'
-        answered_at: Answered on %{date}
+        answered_at: "Answered on %{date}"
       report:
         info: 信息
         profile: 资料
@@ -50,8 +50,8 @@ zh-CN:
         free: 免费
         presential: Presential
       no_account_refund:
-        fill_form_text: You have %{amount} in outstanding repayments for unfunded
-          projects.
+        fill_form_text: "You have %{amount} in outstanding repayments for unfunded
+          projects."
       no_estimate: 不可用
       you_selected: 你选择了这个！
       contribute_text:
@@ -64,19 +64,19 @@ zh-CN:
         anonymous_description: 他选择不公开他的贡献。
         no_reward: 这位贡献者没有选择任何奖励
       selected_reward:
-        review_without_reward_html: 您将通过<strong>％{value} </ strong>进行投放
-          并且不希望任何奖励你的贡献。
+        review_without_reward_html: "您将通过<strong>％{value} </ strong>进行投放
+          并且不希望任何奖励你的贡献。"
         value: 捐款额度
         reward: 选择的奖励
         edit: 编辑
       existing_payment:
-        page_title: 您对％{name}的贡献已经完成
+        page_title: "您对％{name}的贡献已经完成"
         warning: 注意
         warning_subtitle: '您正在尝试访问您所拥有的贡献的地址
           已经开始了：'
-        check_email: 如果临时收到捐款，请检查您的电子邮箱
+        check_email: "如果临时收到捐款，请检查您的电子邮箱
           已经送走了。如果不是，请与我们一起输入％{mail_to_link}，通知
-          您的贡献的代码标识符（％{gateway_id}），我们将协助您完成。
+          您的贡献的代码标识符（％{gateway_id}），我们将协助您完成。"
         new_contribution: 如果您错误地访问了此页面并想要进行此操作
         contact: contact
         click_here: click here
@@ -92,9 +92,9 @@ zh-CN:
           when_about_my_payment_data: 其他人可以看到我的贡献？
           when_about_my_payment_data_answer: 该项目将添加到您的贡献中您的个人资料中的历史记录，但您支持的金额和奖励你选择不会上市。
           when_project_owner: 谁负责该项目？
-          when_project_owner_answer: 如果你只是一个中间人想要了解有关该项目的更多信息，请联系％{name}
+          when_project_owner_answer: "如果你只是一个中间人想要了解有关该项目的更多信息，请联系％{name}"
           when_project_funded: 我如何收到奖励？
-          when_project_funded_answer: 当你的奖励准备就绪时，％{name}会联系你安排发货。
+          when_project_funded_answer: "当你的奖励准备就绪时，％{name}会联系你安排发货。"
         all_or_nothing:
           explanation: 如果这个项目没有达到目标，你会收到100％退款。
           common_questions: 常见问题解答
@@ -107,12 +107,12 @@ zh-CN:
           when_project_fails: 如果项目没有达到目标怎么办？
           when_project_fails_answer: 在这种情况下，您可以获得100％的回报通过退款。
           when_project_funded: 如果项目获得资助，我该如何获得奖励？
-          when_project_funded_answer: 当你的奖励准备就绪时，％{name}会联系
-            你安排发货。
+          when_project_funded_answer: "当你的奖励准备就绪时，％{name}会联系
+            你安排发货。"
       edit_international:
         selected_reward:
-          review_without_reward_html: 你将收到<strong> %{value}</strong>
-            并且你不要任何奖励。
+          review_without_reward_html: "你将收到<strong> %{value}</strong>
+            并且你不要任何奖励。"
           value: 贡献信息
           reward: 选择的奖励
           edit: Edit
@@ -181,17 +181,17 @@ zh-CN:
             encryption_error: 请稍后再试。
             payment_failed: 请查看您的信用卡信息，然后重试
               几分钟。
-            card_invalid: 信用卡信息无效。请检查你的
+            card_invalid: "信用卡信息无效。请检查你的
               信用卡信息，然后再试一次。
-            错误：“<span>尝试处理付款时出错。</ span>
-              <br> <br>错误：<i>％{message} </ i>“
+            错误：'<span>尝试处理付款时出错。</ span>
+              <br> <br>错误：<i>％{message} </ i>'"
           validation:
             empty_field: 该字段不能为空。
             email: 邮件无效。
       edit:
         selected_reward:
-          review_without_reward_html: 你将贡献 <strong> %{value}</strong>
-            并且不要任何贡献的奖励。
+          review_without_reward_html: "你将贡献 <strong> %{value}</strong>
+            并且不要任何贡献的奖励。"
           value: 捐款额度
           reward: 选择的奖励
           edit: 编辑
@@ -268,17 +268,17 @@ zh-CN:
             encryption_error: 请稍后再试。
             payment_failed: 请查看您的信用卡信息，然后重试
               过了一会儿。
-            card_invalid: 信用卡数据无效。请查看您的信用卡
+            card_invalid: "信用卡数据无效。请查看您的信用卡
               信息，然后再试一次。
             错误：“<span>处理付款时出现问题。</ span> <br> <br>
-              错误：<i>％{message} </ i>“
+              错误：<i>％{message} </ i>“"
           validation:
             empty_field: 此字段不能为空。
             email: 无效邮件。
             state: 州信息必填
             phone: 无效的电话号码。
         review_slip_email: 您还会收到一张包含此票证的电子邮件。
-        slip_expiration: 此银行转帐在％{date}日到期。
+        slip_expiration: "此银行转帐在％{date}日到期。"
         print_slip: 打印票证
         付款: 完成付款
         slip_message: 在制作门票时，导演已经指望了
@@ -309,55 +309,55 @@ zh-CN:
           payment_card_installments: 情节
         installment_with_tax: 免息
         transaction_error: 交易被拒绝，请仔细检查您的详细信息或联系银行/发卡机构以获取更多信息。
-        pagarme_warning_html: 网站正处于新的支付方式的测试阶段
+        pagarme_warning_html: "网站正处于新的支付方式的测试阶段
           这将有助于财政捐助和可能的报销
           贡献者的价值观。因此，我们提醒额外的数据，
           除了使用条款中提到的那些，可能需要提供
-          这个项目。如果您有任何问题或疑虑，请通过％{mailto}与我们联系。谢谢。
+          这个项目。如果您有任何问题或疑虑，请通过％{mailto}与我们联系。谢谢。"
         payment_save_card: 我想保存我的信用卡以方便将来的捐款。
         reward_sold_out: 奖励已经用尽了。开始新的贡献。
-        page-title: 支持％{name}
+        page-title: "支持％{name}"
         credits_preview_html: "You have <strong> %{credits}</strong> in credits to
           make this contribution <strong>until 10/11</strong> , according to <a href='http://blog.catarse.me/simplificacao-dos-reembolsos-e-o-fim-dos-creditos/'
           target='__blank'>new rules</a> divulged by Catarse."
         credits_submit: 付款
         credits_title: 使用积分付款
-        insufficient_credits: 积分中有％{credits}。这个数额还不够
-          对贡献，请选择其他付款方式。
+        insufficient_credits: "积分中有％{credits}。这个数额还不够
+          对贡献，请选择其他付款方式。"
         choose_payment: 选择付款方式
         choose_payment_subtitle: 支付安全
-        cpf：'继续，请告知：'
-        credits_notice_html: 此捐款将与您的学分一起支付。验证后，
+        cpf: '继续，请告知：'
+        credits_notice_html: "此捐款将与您的学分一起支付。验证后，
           您将在贡献中获得<strong>％{credits} </ strong>的余额余额
-          其他的项目。
+          其他的项目。"
         live_in_brazil: 我住在澳大利亚。 （取消选中您的贡献是否为国际）
         number_card: 卡片数据
         owner_card: 持卡人数据
         payment_account: 借记卡付款
         payment_boleto: 使用Ticket付款
         payment_card: 用卡付款
-        review_with_reward_html: '您将通过<strong>％{value} </ strong>进行贡献
-          你将获得以下奖励：'
-        select_account: “您将被重定向到您银行的网站：”
+        review_with_reward_html: "您将通过<strong>％{value} </ strong>进行贡献
+          你将获得以下奖励："
+        select_account: "您将被重定向到您银行的网站："
         select_boleto: '要继续，请选择：'
         submit:
           credits: 确认
           moip: 使用MoIP支付
         subtitle: 这些数据将发送给项目组织者。
-        you_are_about_html: 您即将加入为％{link}执行所有操作的群组。
+        you_are_about_html: "您即将加入为％{link}执行所有操作的群组。"
       new:
         no_rewards:
           label_title: 您的贡献的价值
           label_description: 你可以最少贡献$10到这个项目
           label_btn: 继续
           label_error: 支持金额不正确
-        page-title: 支持％{name}
-        标题：哦，是的！
-        you_have_credits: 你有<strong>％{credits} </ strong>积分
-          这个贡献。
+        page-title: "支持％{name}
+        标题：哦，是的！"
+        you_have_credits: "你有<strong>％{credits} </ strong>积分
+          这个贡献。"
         choose_reward: 选择奖励，然后选择贡献的价值
         choose_value: 输入您的贡献金额。
-        minimum_disclaimer: 从$ <span id =“minimum-value”> 10 </ span>开始很棒;）
+        minimum_disclaimer: "从$ <span id =“minimum-value”> 10 </ span>开始很棒;）"
         next_step: 查看并付款
         no_reward: 谢谢。我只是想帮助这个项目。
       review:
@@ -394,19 +394,19 @@ zh-CN:
         share: Share
         tweet: Tuite
         share_back: 与你的朋友分享，帮助这个项目实现目标！按照：跟随
-        follow_category: 你喜欢％{category}类别吗？您可以获得第一手资料
-          当新项目播出时，直接在您的电子邮件中！
+        follow_category: "你喜欢％{category}类别吗？您可以获得第一手资料
+          当新项目播出时，直接在您的电子邮件中！"
         project_recommendations: 为您提供的项目建议
         profile_link: 通过您的个人资料
       show:
         header_subtitle: 没有你，也许这个项目不会成功。欢迎加入团队！
         header_title: '谢谢！'
-        moip_message: 您的交易验证正在进行中，并且是Moip代码
+        moip_message: "您的交易验证正在进行中，并且是Moip代码
           是“％{code}”。<br>如果您对交易有任何疑问，
-          请联系Moip。付款确认后会发送一封电子邮件。
+          请联系Moip。付款确认后会发送一封电子邮件。"
         recommended_projects: '你也可以享受这些项目：'
         text_subtitle: 告诉大家你刚刚做了什么
-        text_title_html: 您现在是该组的一部分，可以为％{link}项目执行所有操作。
+        text_title_html: "您现在是该组的一部分，可以为％{link}项目执行所有操作。"
         title: 非常感谢
       subscription_start_title: 选择奖励，然后选择每月捐款金额
       subscription_edit_titl: 您正在编辑现有订阅

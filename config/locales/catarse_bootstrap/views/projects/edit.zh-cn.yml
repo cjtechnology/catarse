@@ -1,718 +1,650 @@
 zh-CN:
   projects:
-    flex_nav_actions:
-      publish: 继续
-      announce_expiration: 设定截止日期
-    aon_nav_actions:
-      publish: 继续
-      send: 提交
-    edit:
-      reward_html: 奖励<span class ='fontcolor-terciary'>（可选）</ span>
-      video_subtitle: 视频是可选的，但我们强烈推荐它！一个很好的视频
-        有所作为，可以对你的成功负主要责任
-        项目。
-      reward_subtitle: 如果你想在没有奖励的情况下启动项目并在以后添加
-        还有，随意！
-      video_html: 视频<span class ='fontcolor-terciary'>（可选）</ span>
-      budget: 预算
-      posts: 写一个新故事
-      announce_expiration: 收集截止日期
-      announce_expiration_subtitle: 选择日期，因为你无法改变
-        它以后。截止日期到期后，您需要确认您的银行
-        细节。然后，我们会在10个商家内将资金存入您的帐户
-        天。
-      budget_subtitle: 你的资金如何使用？透明度越高越好。
-        显示使用这些资源将涉及哪些步骤和过程。一个
-        带有主要预算项目甚至饼图的列表在这里会非常好。
-      card_aon: 卡片
-      card_subtitle_aon: 你知道家里出现的设计卡吗？
-        在搜索？那么，它使它美丽，因为他们说第一个
-        印象是留下的;）
-      card_flex: 卡片
-      card_subtitle_flex: 你知道家里出现的设计卡吗？
-        在搜索？那么，它使它美丽，因为他们说第一个
-        印象是留下的;）
-      card_sub: 自定义您的广告系列
-      card_subtitle_sub: 看起来很漂亮，因为他们说的是第一印象
-        是留下来的那个;）
-      welcome: 欢迎电子邮件
-      welcome_subtitle: 告诉你对这个贡献有多高兴并给予奖励指示
-        给你的新订阅者
-      basics: 填写以下信息
-      basics_subtitle: 本节中报告的数据无法修改
-        该项目已播出。在启动项目之前，请仔细填写并进行审核。
-      goal: 融资
-      goals: 收集目标
-      goal_subtitle: 请填写以下部分，因为这些信息可以
-        如果项目播出，则不再更改。
-      reports: 支持报告
-      user_settings: 注册数据
-      user_settings_subtitle: “<strong>请填写下面的字段！</ strong>
-        他们必须确定负责项目和收据的人员
-        这笔钱。“
-      user_about: 详细了解你！
-      user_about_subtitle: 支持者希望更好地了解项目经理。
-        随时欢迎有助于讲述您的故事的链接。
-      description: 讲述你的项目故事！
-      description_subtitle: 仔细看看项目的叙述。它是
-        她会吸引人们并带回贡献者。一个很好的视频和描述
-        有差别！
-    subscription_fields:
-      boleto: Ticket
-      credit_card: CC
-      status:
-        started: Started
-        active: Active
-        inactive: Inactive
-        canceled: Canceled
-        canceling: Cancellation requested
-    payment:
-      paid: Confirmed
-      refused: Refused
-      pending: Pending
-      pending_refund: Refund pending
-      refunded: Refunded
-      chargeback: Answered
-      deleted: Wiped out
-      last_status:
-        credit_card:
-          pending: Pending
-          paid: Confirmed
-          refused: Refused
-          refunded: Refunded
-          chargedback: Reversed
-          deleted: Wiped out
-          error: Error
-        boleto:
-          pending: Pending
-          paid: Confirmed
-          refused: Not confirmed
-          refunded: Refunded
-          chargedback: Reversed
-          deleted: Wiped out
-          error: Error
-    payment_method:
-      boleto: Ticket
-      credit_card: Card
-    reward_fields:
-      edit: Edit reward
-      reward: Reward
-      reward_know_more_cta_html: 了解如何<a target =“_ blank”href =“https://catarse.attach.io/Hk5H9HKeZ”
-        class =“alt-link”>使用此电子书计划您的奖励！</a>
-      reward_faq_intro: 在提供奖励之前，重要的是要进行所有制作
-        映射的交付流程。
-      reward_faq_sub_intro: '完成提示：'
-      faq:
-        1:
-          title: '奖励描述和标题：'
-          description: 他们帮助贡献者了解您提供的内容。要客观
-            透明！在这篇文章中学习<a href =“http://suporte.catarse.me/hc/pt-br/articles/212191546-Recompensas-realizadores-#o-que-oferecer”
-            target =“_ blank”class =“alt-link”>您可以提供和不提供的内容</a>和
-            从<a href =“http://blog.catarse.me/mais-de-30-ideias-de-recompensa-para-seu-crowdfunding/”中获取灵感
-            target =“_ blank”class =“alt-link”>奖励提示</a>。
-        2:
-          title: '奖励价值：'
-          description: 表示贡献者必须贡献多少才能接收
-            奖励。尽量提供公平和现实的价值。帮你设置这些
-            值，我们建议<a href =“http://blog.catarse.me/meta-crowdfunding-calculadora-orcamento/”
-            target =“_ blank”class =“alt-link”>预算计算器</a>。
-        3:
-          title: '交货预测：'
-          description: 表示贡献者何时会收到所选的奖励。
-            设置此日期时要小心，以免让贡献者感到沮丧。
-            如有疑问，请及时保守。
-        4:
-          title: '交货方式：'
-          description: 如何发送奖励以及花费多少钱
-            贡献者。如果您添加运费值，它将在贡献者时添加
-            选择奖励和区域设置。 <a href =“http://blog.catarse.me/o-calculo-de-envio-de-recompensas-financiamento-coletivo/”
-            target =“_ blank”class =“alt-link”>了解详情</a>。
-        5:
-          title: '奖励数量：'
-          description: 您还可以将奖励限制为一定数量的贡献
-            并更改奖励在项目中出现的顺序。 <a href =“http://suporte.catarse.me/hc/pt-br/articles/212191546-tudo-sobre-RECOMPENSAS#como-editar”
-            target =“_ blank”class =“alt-link”>了解详情</a>。
-      minimum_value_title: $ $ {minimum_value}或更多
-      minimum_value_subscription_title: 每月$％{minimum_value}
-      paid_contributors: “％{count}贡献者”
-      paid_subscribers: “％{count}订阅者”
-      reward_gone: 缺货
-      reward_limited: 有限
-      delivery: '发送：'
-      reward_limited_input: 有限奖励
-      reward_available: “（％{available} of％{maximum} available）”
-      delivery_estimation: '估计交付：'
-      reward_link_label: 直接支持的链接
-      reward_link_hint: 下面的链接指向带有此奖励的贡献页面
-        已经选中了。
-      add_reward: “+添加奖励”
-      info_box: 描述奖励金额并发布真实的交付日期预测
-        为贡献者。您还可以限制奖励以及达到限额时
-        它似乎已售出。如果您想更改奖励的显示顺序
-        在您的项目中，只需通过向上或向下拖动它们即可。
-      minimum_value: '价值：'
-      deliver_at: '投放预测：'
-      description: '描述：'
-      status:
-        error: Sending error
-        delivered: Sent
-        received: Received
-      shipping_options:
-        free: No freight involved
-        national: National Freight
-        international: National and International Freight
-        presential: Face-off
-      limit_reward: Limit reward
-      available: Available quantity
-      submit: To save
-      index:
-        select_reward: 选择此奖励
-        display_remaining: “％{剩余}％{最大}可用”
-        dont_want: 我不想要任何奖励
-        limited: 有限
-        sold_out: 缺货
-        contributions_to_confirm: 
-          one: 1的贡献。
-          other: 确认时“％{count}次捐款。”
-        edit_reward: 编辑奖励
-        new_reward: 奖励奖励
-        reward_deliver_time: “<b>估计投放：</ b>％{估算}”
-        reward_title: ％{minimum}或更多
-    dashboard_insights: 
-      finish_explanation: 您的广告系列仍然有效。为了领取资金
-        在您的银行帐户中，您必须设置收款的结束日期。
-      know_more: 了解更多。
-    dashboard_surveys: 
-      title: 问卷调查
-      subtitle: 请检查您的贡献者的送货地址并询问其他人
-        与您的奖励相关的问题。
-      help_link: 了解如何使用<a href =“https://suporte.catarse.me/hc/pt-br/articles/115003402146-Question%C3%A1rios-Como-envi%C3%A1-los-aos-seus -apoiadores”
-        target =“_ blank”class =“alt-link”>奖励管理中的问卷调查！</a>
-      online_explanation: 由于您的项目尚未最终确定，您只能这样做
-        提交问卷调查到现金奖励。完成项目后，
-        您可以向所有贡献者提交问卷。
-      create_survey: 创建调查问卷
+    # flex_nav_actions:
+    #   publish: 继续
+    #   announce_expiration: 设定截止日期
+    # aon_nav_actions:
+    #   publish: 继续
+    #   send: 提交
+    # edit:
+    #   reward_html: 奖励<span class ='fontcolor-terciary'>（可选）</ span>
+    #   video_subtitle: 视频是可选的，但我们强烈推荐它！一个很好的视频有所作为，可以对你的成功负主要责任项目。
+    #   reward_subtitle: 如果你想在没有奖励的情况下启动项目并在以后添加还有，随意！
+    #   video_html: 视频<span class ='fontcolor-terciary'>（可选）</ span>
+    #   budget: 预算
+    #   posts: 写一个新故事
+    #   announce_expiration: 收集截止日期
+    #   announce_expiration_subtitle: 选择日期，因为你无法改变它以后。截止日期到期后，您需要确认您的银行细节。然后，我们会在10个商家内将资金存入您的帐户天。
+    #   budget_subtitle: 你的资金如何使用？透明度越高越好。显示使用这些资源将涉及哪些步骤和过程。一个带有主要预算项目甚至饼图的列表在这里会非常好。
+    #   card_aon: 卡片
+    #   card_subtitle_aon: 你知道家里出现的设计卡吗？在搜索？那么，它使它美丽，因为他们说第一个印象是留下的;）
+    #   card_flex: 卡片
+    #   card_subtitle_flex: 你知道家里出现的设计卡吗？在搜索？那么，它使它美丽，因为他们说第一个印象是留下的;）
+    #   card_sub: 自定义您的广告系列
+    #   card_subtitle_sub: 看起来很漂亮，因为他们说的是第一印象是留下来的那个;）
+    #   welcome: 欢迎电子邮件
+    #   welcome_subtitle: 告诉你对这个贡献有多高兴并给予奖励指示给你的新订阅者
+    #   basics: 填写以下信息
+    #   basics_subtitle: 本节中报告的数据无法修改该项目已播出。在启动项目之前，请仔细填写并进行审核。
+    #   goal: 融资
+    #   goals: 收集目标
+    #   goal_subtitle: 请填写以下部分，因为这些信息可以如果项目播出，则不再更改。
+    #   reports: 支持报告
+    #   user_settings: 注册数据
+    #   user_settings_subtitle: "<strong>请填写下面的字段！</ strong>他们必须确定负责项目和收据的人员这笔钱。"
+    #   user_about: 详细了解你！
+    #   user_about_subtitle: 支持者希望更好地了解项目经理。随时欢迎有助于讲述您的故事的链接。
+    #   description: 讲述你的项目故事！
+    #   description_subtitle: 仔细看看项目的叙述。它是她会吸引人们并带回贡献者。一个很好的视频和描述有差别！
+    # subscription_fields:
+    #   boleto: Ticket
+    #   credit_card: CC
+    #   status:
+    #     started: Started
+    #     active: Active
+    #     inactive: Inactive
+    #     canceled: Canceled
+    #     canceling: Cancellation requested
+    # payment:
+    #   paid: Confirmed
+    #   refused: Refused
+    #   pending: Pending
+    #   pending_refund: Refund pending
+    #   refunded: Refunded
+    #   chargeback: Answered
+    #   deleted: Wiped out
+    #   last_status:
+    #     credit_card:
+    #       pending: Pending
+    #       paid: Confirmed
+    #       refused: Refused
+    #       refunded: Refunded
+    #       chargedback: Reversed
+    #       deleted: Wiped out
+    #       error: Error
+    #     boleto:
+    #       pending: Pending
+    #       paid: Confirmed
+    #       refused: Not confirmed
+    #       refunded: Refunded
+    #       chargedback: Reversed
+    #       deleted: Wiped out
+    #       error: Error
+    # payment_method:
+    #   boleto: Ticket
+    #   credit_card: Card
+    # reward_fields:
+    #   edit: Edit reward
+    #   reward: Reward
+    #   reward_know_more_cta_html: "了解如何<a target =“_ blank”href =“https://catarse.attach.io/Hk5H9HKeZ”class =“alt-link”>使用此电子书计划您的奖励！</a>"
+    #   reward_faq_intro: 在提供奖励之前，重要的是要进行所有制作映射的交付流程。
+    #   reward_faq_sub_intro: '完成提示：'
+    #   faq:
+    #     1:
+    #       title: '奖励描述和标题：'
+    #       description: "他们帮助贡献者了解您提供的内容。要客观
+    #         透明！在这篇文章中学习<a href =“http://suporte.catarse.me/hc/pt-br/articles/212191546-Recompensas-realizadores-#o-que-oferecer”
+    #         target =“_ blank”class =“alt-link”>您可以提供和不提供的内容</a>和
+    #         从<a href =“http://blog.catarse.me/mais-de-30-ideias-de-recompensa-para-seu-crowdfunding/”中获取灵感
+    #         target =“_ blank”class =“alt-link”>奖励提示</a>。"
+    #     2:
+    #       title: '奖励价值：'
+    #       description: "表示贡献者必须贡献多少才能接收
+    #         奖励。尽量提供公平和现实的价值。帮你设置这些
+    #         值，我们建议<a href =“http://blog.catarse.me/meta-crowdfunding-calculadora-orcamento/”
+    #         target =“_ blank”class =“alt-link”>预算计算器</a>。"
+    #     3:
+    #       title: '交货预测：'
+    #       description: 表示贡献者何时会收到所选的奖励。设置此日期时要小心，以免让贡献者感到沮丧。如有疑问，请及时保守。
+    #     4:
+    #       title: '交货方式：'
+    #       description: "如何发送奖励以及花费多少钱贡献者。如果您添加运费值，它将在贡献者时添加
+    #         选择奖励和区域设置。 <a href =“http://blog.catarse.me/o-calculo-de-envio-de-recompensas-financiamento-coletivo/”
+    #         target =“_ blank”class =“alt-link”>了解详情</a>。"
+    #     5:
+    #       title: '奖励数量：'
+    #       description: "您还可以将奖励限制为一定数量的贡献
+    #         并更改奖励在项目中出现的顺序。 <a href =“http://suporte.catarse.me/hc/pt-br/articles/212191546-tudo-sobre-RECOMPENSAS#como-editar”
+    #         target =“_ blank”class =“alt-link”>了解详情</a>。"
+      # minimum_value_title: $ $ {minimum_value}或更多
+      # minimum_value_subscription_title: 每月$％{minimum_value}
+      # paid_contributors: “％{count}贡献者”
+      # paid_subscribers: “％{count}订阅者”
+      # reward_gone: 缺货
+      # reward_limited: 有限
+      # delivery: '发送：'
+      # reward_limited_input: 有限奖励
+      # reward_available: “（％{available} of％{maximum} available）”
+      # delivery_estimation: '估计交付：'
+      # reward_link_label: 直接支持的链接
+      # reward_link_hint: 下面的链接指向带有此奖励的贡献页面已经选中了。
+      # add_reward: “+添加奖励”
+      # info_box: 描述奖励金额并发布真实的交付日期预测为贡献者。您还可以限制奖励以及达到限额时它似乎已售出。如果您想更改奖励的显示顺序在您的项目中，只需通过向上或向下拖动它们即可。
+      # minimum_value: '价值：'
+      # deliver_at: '投放预测：'
+      # description: '描述：'
+      # status:
+      #   error: Sending error
+      #   delivered: Sent
+      #   received: Received
+      # shipping_options:
+      #   free: No freight involved
+      #   national: National Freight
+      #   international: National and International Freight
+      #   presential: Face-off
+      # limit_reward: Limit reward
+      # available: Available quantity
+      # submit: To save
+      # index:
+      #   select_reward: 选择此奖励
+      #   display_remaining: “％{剩余}％{最大}可用”
+      #   dont_want: 我不想要任何奖励
+      #   limited: 有限
+      #   sold_out: 缺货
+      #   contributions_to_confirm: 
+      #     one: 1的贡献。
+      #     other: "确认时％{count}次捐款。"
+      #   edit_reward: 编辑奖励
+      #   new_reward: 奖励奖励
+      #   reward_deliver_time: "<b>估计投放：</ b>％{估算}"
+      #   reward_title: ％{minimum}或更多
+    # dashboard_insights: 
+    #   finish_explanation: 您的广告系列仍然有效。为了领取资金在您的银行帐户中，您必须设置收款的结束日期。
+    #     know_more: 了解更多。
+    dashboard_surveys: 
+      title: 问卷调查
+      subtitle: 请检查您的贡献者的送货地址并询问其他人与您的奖励相关的问题。
+      help_link: "了解如何使用<a href =“https://suporte.catarse.me/hc/pt-br/articles/115003402146-Question%C3%A1rios-Como-envi%C3%A1-los-aos-seus-apoiadores”target =“_ blank”class =“alt-link”>奖励管理中的问卷调查！</a>"
+      online_explanation: 由于您的项目尚未最终确定，您只能这样做提交问卷调查到现金奖励。完成项目后，您可以向所有贡献者提交问卷。
+      create_survey: 创建调查问卷
     dashboard_fiscal:
       title: 财政文件
-      subtitle: 下载与您的收藏相关的税务文件。
-      help_link: 如果您不确定税收，请参阅我们关于<a href =“http://fazum.catarse.me/manual-tributacao-realizadores”的文章
-        target =“_ blank”class =“alt-link”>董事税</a>
-      nodoc_explanation: 您可以在项目完成后立即访问税务文件
-        最终确定并成功获得资助。
-      nodoc_explanation_sub: 您每月都可以访问税务文件。
-      doc_download: 下载文档
-      doc_download_explanation: 由于目前的立法没有正式化集体
-        融资，我们<b>始终建议董事咨询会计师
-        或者在正式收到所收款项之前会计师事务所</ b>
-        做出关于哪种方式最接近的明智决定
-        您的项目与其贡献者之间的关系。
+      subtitle: 下载与您的收藏相关的税务文件。
+      help_link: "如果您不确定税收，请参阅我们关于<a href =“http://fazum.catarse.me/manual-tributacao-realizadores”的文章target =“_ blank”class =“alt-link”>董事税</a>"
+      nodoc_explanation: 您可以在项目完成后立即访问税务文件最终确定并成功获得资助。
+      nodoc_explanation_sub: 您每月都可以访问税务文件。
+      doc_download: 下载文档
+      doc_download_explanation: 由于目前的立法没有正式化集体融资，我们<b>始终建议董事咨询会计师或者在正式收到所收款项之前会计师事务所</ b>做出关于哪种方式最接近的明智决定您的项目与其贡献者之间的关系。
     dashboard_contribution_reports:
-      help_link: 了解如何使用支持<a href =“https://suporte.catarse.me/hc/pt-br/articles/115003361423-Relat%C3%B3rio-de-apoios”
-        target =“_ blank”class =“alt-link”>报告！</a>
-      title: 支持报告
-      subtitle_html: 跟踪对您的广告系列所做的贡献并管理投放
-        奖励
+      help_link: "了解如何使用支持<a href =“https://suporte.catarse.me/hc/pt-br/articles/115003361423-Relat%C3%B3rio-de-apoios”target =“_ blank”class =“alt-link”>报告！</a>"
+      title: 支持报告
+      subtitle_html: 跟踪对您的广告系列所做的贡献并管理投放奖励
     dashboard_user_settings:
       natural: 持有人的全名
-      juridical: 公司名称
-      title: 注册和银行数据
-      subtitle_html: 完成以下数据后，您的项目就可以播出了。
-        完成填充后，单击“保存”。看看这个。如果一切正常，
-        只需点击“发布”按钮即可启动广告系列！
-      owner_document_natural: 银行账户持有人的公积金
-      owner_document_juridical: CNPJ的银行账户持有人
-      user_data_title: 银行数据
-      user_data_subtitle_html: 这些数据将用于发行我们的Nota
-        如果您的项目成功，财政和转移资金。
-      account_subtitle_html: '我们需要以下数据进行财务转移
-        成功的项目。 <b>注意: CPF / CNPJ列在地籍中
-        数据和银行数据必须相同。</ b>'
-      account_edit_disabled_html: 以下信息由您通知
-        您的项目发布时间。为了避免传递资源的错误，
-        一旦项目上线，这些数据的编辑就会被阻止。如果
-        你想要改变它们，只有％{link}告诉你改变
-        你想做。
-      submit: 保存
-    dashboard_home_templates:
-      status: '状态：'
-      project_numbers: 
-        financed: 融资
-        backed: 提出
-        contributions: 贡献
-        left: 剩下
-      waiting_funds: 
-        title: “％{name}，我们正在处理最后的付款。”
-        subtitle_html: 您的项目已在％{expires}完成，正在等待
-          机票确认和付款。由于门票的到期日，
-          最后一分钟捐款的项目最多可在4个工作日内停留
-          该状态，从项目结束日期开始计算。 ％{链接}。
-        header: “从这里你的项目可以达到或不达到目标。这是什么
-          在每种情况下都会发生: “
-        success: '我击中了目标：'
-        failed: '我没有击中目标：'
-        good_luck: 祝你好运！
-      成功: 
-        title: “％{name}，庆祝你应得的！”
-        subtitle_html: 您的项目成功了，现在是开始工作的时候了
-          与你的贡献者！特别注意奖励的交付。普罗米修斯？
-          交付！请务必查看％{link1}项目后部分并查找
-          关于％{link2}。
-        header1: '不要忘记：透明度就是一切。
-        transparent_html: 保持知情的贡献者会让贡献者感到高兴。
-          即使你去告知它的故障或挫折。快乐的贡献者是％{link}。
-          因此，使用和滥用（总是适度）新颖标签。什么
-          你在那里写的直接到你的贡献者的电子邮箱。已经
-          开始提供奖励？在“报告”中。你下载的标签
-          信息，以便您可以管理项目的奖励交付。
-        header2: '一定要读：'
-      rejected:
-        title: “％{name}，遗憾的是现在不是这个时候。”
-        subtitle_html: 您已将项目提交给Catarse和
-          我们知道它不符合网站配置文件。有
-          被拒绝的项目不会阻止您提交新项目
-          评估或重新制定您当前的项目。与我们的客户聊天
-          服务！我们建议您仔细查看％{link1}和％{link2}。
-      online:
-        title: “％{name}，您的广告系列已启动！”
-        subtitle_html: 您的项目正在运行，您的广告系列将于11:59:39关闭
-          下午在％{date}日。直到那一天，你可以得到支持。记得，
-          这是全有或全无的，你只会拿出筹集的资金
-          达到了规定的目标。如有其他问题，请访问我们的％{link2}！
-        explain_html: “<div class ='fontsize-base u-marginbottom-40 card card-terciary'> <p
-          class ='fontweight-bold'>随着项目在空中，一些信息可以
-          不再被编辑</ p> <p>您将无法再进行更改：<br>  - 
-          其资金目标; <br>  - 截止日期; <br>  - 项目的URL;点击
-           - 拥有该项目的用户。 </ p> <p class ='fontweight-bold'>需要更多
-          有关活动流程的信息？请参阅旁边的框。 </ p> <p>％{Link1}
-          也是巴西情景的重要数据来源。一个好的
-          阅读％{link2}可以鼓舞人心。在那里你会找到成功的故事
-          项目和活动提示。 </ p> </ DIV>”
-      failed:
-        title: “％{name}，不要气馁！”
-        subtitle_html: 你的项目没有达到目标，我们知道这是
-          不是最好的感觉。但不要气馁。采取这个过程
-          作为学徒，一定要考虑第二次尝试。别担心，
-          你所有的贡献者都会收回钱。 ％{链接}。
-        questions: 我们还发了两封电子邮件给你。如果你有
-          时间和头脑，如果你能看看会很棒。您的反馈
-          帮助我们为您打造更好，更好的Catarse。
-      draft:
-        title: “％{name}，构建你的项目！”
-        subtitle: 项目越仔细，格式越好，机会就越大
-          它在集水区运动中取得了成功。在提交之前
-          我们的分析项目，小心地填充所有相邻的襟翼。您可以
-          保存更改并根据需要多次返回草稿项目。
-          一切就绪后，点击发送按钮，我们会与您联系
-          评估你的项目。
-        subtitle_flex: 项目越精细，格式越好，越大
-          它在集水区运动中取得成功的可能性。在发布之前
-          您的项目，小心地填充所有相邻的襟翼。您可以保存更改
-          并根据需要多次返回草案项目。当一切
-          准备就绪，点击发送按钮，我们将与您联系以评估您的
-          项目。
-        study_title: 你觉得你需要更努力地学习你的项目吗？
-          查看旁边框中的链接。
-      approved:
-        title: “％{name}，您的项目已获批准！”
-        subtitle_html: 要将项目置于空中，您只需要填写
-          ％{link1}标签中的所需数据。知道我们收费是很重要的
-          仅为成功项目收集的总金额的13％。
-          了解％{link2}。
-      in_analysis:
-        title: “％{name}，您提交了项目以供审核，并将收到我们的
-          在4个工作日内回复“
-        subtitle_html: 谢谢！我们的团队将评估您项目的所有内容
-          在4个工作日内，您将收到一封电子邮件，告知是否有
-          已获批准，已拒绝或是否将继续进行分析以获取更多信息
-          时间，以便您可以进行建议的调整。利用这一点
-          是时候收集亲近的人的反馈！
-    dashboard_analysis_success:
-      title: “％{name}，您的项目已提交审核！”
-      subtitle: '您将在4个工作日内通过电子邮件收到我们的回复：'
-      next_steps: 在等待您的回复时，您可以继续编辑项目！
-        我们还建议您与亲近的人一起收集反馈
-        并规划您的广告系列如何运作。
-    dashboard_nav:
-      leave_link_html: 退出控制面板
-      draft_start_tab: 开始
-      start_tab: 我的广告系列
-      reports_tab: 支持报告
-      subscriptions_tab: Subscriber Base
-      survey_tab: 调查问卷
-      preview_tab: 预览
-      posts_tab: 新闻
-      edit_project: 编辑项目
-      fiscal_tab: 财政文件
-      send: 提交
-      announce_expiration: 设定截止日期
-      publish: 继续
-    dashboard_nav_links:
-      preview_tab: 预览
-      account_tab: 注册数据
-      basics_tab: 基本
-      goal_tab: 融资
-      goals_tab: 目标
-      budget_tab: 预算
-      card_tab_aon: 卡片
-      card_tab_sub: 图片
-      card_tab_flex: 卡片
-      description_tab: description
-      video_tab: 视频<span class ='fontsize-smallest fontcolor-secondary'>（可选）</ span>
-      rewards_tab: 奖励<span class ='fontsize-smallest fontcolor-secondary'>（可选）</ span>
-      about_you_tab: 公开个人资料
-    flex_dashboard_explanation:
-      flex:
-        kind_text: 您正在参与灵活的模型试用期。您的
-          参与对于理解我们如何扩展这种模式至关重要
-          适用于所有用户。 ％{链接}
-        expiration_text: 在灵活广告系列中，您可以继续保留广告系列
-          最多1年！在空中，您可以选择设置
-          项目结束日期（至少2天）。活动结束后，您会收到
-          您在10个工作日内收集的所有物品（折扣价）。
-        expiration_title: 收集截止日期
-    dashboard_user_about:
+      juridical: 公司名称
+      title: 注册和银行数据
+      subtitle_html: 完成以下数据后，您的项目就可以播出了。完成填充后，单击“保存”。看看这个。如果一切正常，只需点击“发布”按钮即可启动广告系列！
+      owner_document_natural: 银行账户持有人的公积金
+      owner_document_juridical: CNPJ的银行账户持有人
+      user_data_title: 银行数据
+      user_data_subtitle_html: 这些数据将用于发行我们的Nota如果您的项目成功，财政和转移资金。
+      account_subtitle_html: "我们需要以下数据进行财务转移成功的项目。 <b>注意: CPF / CNPJ列在地籍中数据和银行数据必须相同。</ b>"
+      account_edit_disabled_html: 以下信息由您通知您的项目发布时间。为了避免传递资源的错误，一旦项目上线，这些数据的编辑就会被阻止。如果你想要改变它们，只有％{link}告诉你改变你想做。
       submit: 保存
-      twitter_label: Twitter个人资料
-      twitter_hint: 粘贴您的个人资料链接
-      other_link_label: 互联网上的存在
-      other_link_hint: 包含帮助贡献者了解您为什么的链接
-        合适的人做这个项目。
-      about_label: 关于你
-      about_hint: 如果您想更好地描述您，您的公司，请使用此空间
-        或你的机构。想给合作伙伴好评吗？使用一些机构
-        视频？这个空间是你的，并以你想要的任何方式使用它。所有这些信息
-        将显示在您的公开个人资料中的标签关于。
-      facebook_link_label: Facebook个人资料
-      facebook_link_hint: 粘贴您的个人资料链接
-      uploaded_image_label: 个人资料图片
-      uploaded_image_hint: 此图片将用作个人资料的缩略图
-        （PNG，JPG 280x280理想尺寸）
-      name_label: 名称
-      name_hint: 这是用户在您的个人资料中看到的名称。
-      email_label: 注册电子邮件
-      email_hint: 通过电子邮件登录Catarse并与我们的团队沟通
-        及其贡献者
-    dashboard_goal:
-      want_more: 想了解更多？
-      online_days_closed: 确定的时间
-      online_days_closed_hint: 您的项目已经在捕获中
-        时间已定义。您可以选择1到365天。出版后
-        该项目，你不能改变这个截止日期。
-      online_days_open: 开放时间
-      online_days_open_hint: 您的项目在没有设定截止日期的情况下上线。你会
-        可以选择在任何时间设置项目结束日期（最少1天）
-        出版后12个月。
-      online_days_label: 收集时间
-      online_days_flex_hint: 这是你的项目播出的时间，
-        开放筹款。在Flex中，您可以选择是否使用发布项目
-        截止日期或公开截止日期。 <a class =“alt-link”href =“https://catarse.attach.io/HJGoCzmJl”
-        target =“_ blank”>了解我们设定截止日期的提示。</a>
-      online_days_aon_hint: 这是你的项目播出的时间，
-        开放筹款。在All或Nothing中，您可以选择1到60天。
-        <a class="alt-link" href=" https://catarse.attach.io/HJGoCzmJl" target="_blank">了解
-        我们设定截止日期的提示。</a>
-      goal_label: 收集目标
-      goal_hint: 你需要筹集多少钱？设定一个与你的目标一致的目标
-        项目提议。不要忘记在计算中包含管理费用。
-      goal_taxes_link: 了解Catarse费率
-      goal_taxes_label: Catarse费用
-      goal_taxes_watch_video_html: <a class =“fontsize-small”href =“http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico”
-        target =“_ blank”>观看我们的<span class =“fontweight-bold”>基本预算视频
-        课</跨度> </A>
-      goal_aon_taxes_hint: 这是从您的收藏中扣除的金额
-        在竞选活动结束时，关于Catarse的服务和手段
-        付款如果您的项目达到或超过目标，则占总数的13％
-        在广告系列结束时收取的费用将被收取。如果您的项目有
-        没有达到目标，所有支持的钱将返还给你的贡献者
-        活动结束后，您无需付费。这是全有或全无！
-      goal_flex_taxes_hint: 这是从您的收藏中扣除的金额
-        在竞选活动结束时，关于Catarse的服务和手段
-        付款在活动结束时收集的总数的13％将是
-        无论是否达到目标，都会被收取费用。
-      mode_label: 融资类型
-      mode_hint: 选择集体融资活动的模板。后
-        开始您的广告系列，您将无法进行交易。
-      mode_diff_ebook: <a class =“fontsize-small”href =“https://catarse.attach.io/BkLCRfXyg”
-        target =“_ blank”>下载我们的<span class =“fontweight-bold”> Flex vs All或
-        什么都没有电子书</ span> </a>
-      mode_diff_link: 查看模型之间的差异
-      flex_diff_html: <span class =“fontweight-semibold”>承诺<br> </ span>你
-        同意执行项目并提供奖励（如果您已选择
-        提供他们），<span class =“fontweight-semibold”>无论收集金额</ span>
-        <br> <br> <span class =“fontweight-semibold”>工作原理？</ span> <br>收到，
-        在学期结束时，你收集的所有东西（仅扣除
-        无论达到收集目标，Catarse的速度）。搜索结果
-        <span class =“fontweight-semibold”>空中最长项目截止日期：</ span>
-        12个月<br> <br> <span class =“fontweight-semibold”>费用：</ span> 13％
-        总收集
-      aon_diff_html: <span class =“fontweight-semibold”>承诺</ span> <br>您
-        提交执行项目并仅提供奖励<span class =“fontweight-semibold”> if
-        收入达到或超过目标。</ span> <br> <br> <span class =“fontweight-semibold”>如何
-        它有效吗？</ span> <br>最后只收到收到的金额
-        在该术语中，您已达到收藏目标。否则，你所有的贡献者
-        收到他们的付款。 <br> <br> <span class =“fontweight-semibold”>截止日期
-        对于空中项目：</ span> 60天<br> <br> <span class =“fontweight-semibold”>费用：</ span>
-        收集总量的13％
-      submit: 保存
-      kind_label: 融资类型
-      kind_link: 如果您想了解更多信息，请点击此处
-      flex: 
-        kind_text: 您正在参与灵活的模型试用期。您的
-          参与对于理解我们如何扩展这种模式至关重要
-          适用于所有用户。 ％{链接}
-    dashboard_description:
-      submit: 保存
-      description_label: 项目描述
-      description_hint: '充满激情和清晰地讲述将要完成的事情。
-        澄清有关如何使用资金，背后是谁的可能问题
-        项目，项目将如何以及何时交付。透明度吸引
-        更多贡献者。请记住：您的项目将由普通人访问
-        谁将决定是否为您的项目做出贡献。 Capriche！”
-      description_alert: <span class =“fa fa-fw fa-lightbulb-o”> </ span>了解如何
-        <a class="alt-link" href="https://catarse.attach.io/BJmQVOiR" target="blank">创建
-        一个迷人的描述！</a>
-      description_video_alert: <span class =“fa fa-lightbulb -o”> </ span>了解如何
-        <a href="https://catarse.attach.io/BJmQVOiR" target="_blank" class="alt-link">创建
-        一个迷人的描述</a>并查看示例<a href =“http://crowdfunding.catarse.me/videomakers?ref=ctrse_dashboard_video”
-        目标=“_ blank”>成功视频</a>关于Catarse！
-    dashboard_reward:
-      submit: 保存
-      add_reward: 添加奖励
-      reward: 奖励
-    dashboard_start:
-      title: 生活你喜欢做的事
-      description: 'Hello％{name}！这是您构建和规划自己的时间
-        运动。小心地填充所有相邻的襟翼，并确保将它们保存为
-        你填补退房会降低我们为您准备的电子书：'
-      video_src: https：//docs.google.com/presentation/d/e
-    dashboard_announce_expiration:
-      explanation_01: '当我们开始最后一段时间，我们将开启7天的倒计时。
-        你可以收到捐款，直到：'
-      explanation_02: 这是一个不可逆转的行动。一旦定义了最终拉伸，
-        该项目将无法再改变其资金截止日期。在
-        在学期结束时，您将收到所有收到的金额。
-    dashboard_preview:
-      aon:
-        header_subtitle: 现在是反馈的时候了！
-        header_text: 与朋友分享以下链接并花时间制作
-          精细调整以帮助您的广告系列。
-      flex:
-        header_subtitle: 是时候听建议了！
-        header_text: 与你的朋友分享％{link}链接并花时间去
-          进行微调以帮助您的广告系列。
-        publish_btn_html: 我很满意！ <br>我想现在发布我的项目
-    dashboard_posts:
-      only_to_backers: 我希望这个新闻只对贡献者可见。
-      publish: 发布新颖性
-      preview: 预览
-      all_backers_aon: 贡献者和意志
-      all_backers_flex: 贡献者和意志
-      all_backers_sub: 订阅者将是
-      backers_aon: 所有贡献者
-      email_backers_aon: 通过电子邮件发送给所有贡献者
-      email_backers_flex: 通过电子邮件发送给所有贡献者
-      email_backers_sub: 通过电子邮件发送给所有订阅者
-      backers_only_aon: 仅在平台上为这些贡献者显示。
-      backers_only_flex: 仅在平台上可见这些贡献者。
-      backers_only_sub: 平台上仅对这些订阅者可见。
-      backers_some_aon: “一些奖励的贡献者。”
-      backers_some_flex: “一些奖励的贡献者。”
-      backers_some_sub: '某些奖励的订阅者。'
-      backers_flex: 所有贡献者
-      backers_sub: 所有订阅者
-      successful: 消息已成功发送
-      send_a_message_sub: 向订阅者提交新闻报道
-      send_a_message_flex: 向您的贡献者提交新闻报道
-      send_a_message_aon: 向您的贡献者提交新闻报道
-      everyone_aon: 每个人（贡献者和非贡献者）
-      everyone_flex: 每个人（贡献者和非贡献者）
-      everyone_sub: 每个人（订阅者和非订阅者）
-      discard: 丢弃
-      warning: 所有新闻稿都通过电子邮件直接发送给他们的贡献者。评论
-        发布之前的帖子。
-      old_posts: 旧消息
-    dashboard_budget:
-      submit: 保存
-      budget_label: 项目预算
-      budget_alert: <span class =“fa fa-fw fa-lightbulb-o”> </ span>查看有关如何提示
-        到<a class =“alt-link”href =“http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico?ref=ctrse_dashboard”
-        target =“_ blank”>确定项目的目标！</a>
-    dashboard_card:
-      submit: 保存
-      card_label: 卡片
-      headline_label: Catchphrase
-      headline_label_hint: 项目卡上的短语，用于呼叫贡献者。一定有
-        最多100个字符并很好地总结项目。
-      uploaded_image_label: 项目图片
-      cover_image_label: 背景图片<span class =“fontcolor-secondary”>（可选）</ span>
-      cover_image_hint: 此图片将用于主要区域的底部
-        你的页面（见例）。该文件不能超过1MB和尺寸
-        应为1340 X 860像素，采用JPG，GIF或PNG格式。
-      uploaded_image_hint: 此图像将用作项目的缩略图
-        （PNG，JPG尺寸720 x 400）
-    dashboard_video:
-      submit: 保存
-      video_label: 项目视频
-      video_hint: 链接到Vimeo或Youtube。这是广告系列的主要视频。
-      video_alert: <span class =“fa fa-fw fa-lightbulb -o”> </ span>查看<a的示例
-        class =“alt-link”href =“http://crowdfunding.catarse.me/videomakers?ref=ctrse_dashboard_video”
-        target =“_ blank”>关于Catarse的成功视频！</a>
-      aon:
-        card_label: 视频
-        video_url: 项目视频
-        video_url_hint: ''
-        video_url_subtitle: 链接到Vimeo或Youtube。这是您的主要视频
-          运动。
-      flex:
-        card_label: 视频
-        video_url: 项目视频
-        video_url_hint: ''
-        video_url_subtitle: 链接到Vimeo或Youtube。这是您的主要视频
-          运动。
-    dashboard_basics:
-      permalink: 链接到Catarse上的项目
-      permalink_hint: 您可以编辑它直到项目上线。选择一些东西
-        简单，直接，并很好地识别您的项目。尽量不要使用连字符，
-        下划线等
-      tags: 标签
-      tags_hint: 列出最多5个与您的广告系列相关的关键字，以便于发现
-        由贡献者。
-      tags_max_error: 您最多可以使用5个标签
-      admin_tags: 管理标签
-      admin_tags_hint: 报告以逗号分隔的标签
-      user_id: 用户ID
-      tracker_snippet_html: Html跟踪代码段
-      city: 项目位置
-      city_hint: 你的项目将在哪里进行？如果它发生在超过
-        一个地方，一个提示是将城市放在您的网络潜在贡献者
-        是最伟大的。
-      online_date: 进入空中的日期
-      service_fee: catarse的比率
-      name: 项目名称
-      name_hint: 给出一个人们会很容易记住的名字。不要超过50个字符。
-      name_label: 越直接越好。不要超过50个字符
-      url: 项目网址
-      url_label: 这是你项目的地址，应该很容易记住。
-        避免使用下划线，连字符和符号
-      category: 类别
-      category_hint: 选择最适合您项目的那个。
-      category_label: 探索并受到同类别其他项目的启发
-        就像你的。
-      online_days: 收集截止日期
-      online_days_label: 您可以为广告系列选择1到60天。校验
-        在导演指南中提供截止日期的提示。
-      值：要收集的金额
-      value_secondary: 计划与项目建议一致的目标。
-        检查您的预算，并确保包含Catarse收取的13％费用
-        你的项目是成功的
-      form:
-        submit: 提交
-    contributions_report:
-      legend_labels:
-        failed:
-          pending_refund:
-            label: 退款正在进行中
-            text: 支持者已经提供了银行详细信息和还款
-              进展。
-          refunded:
-            label: 退款
-            text: '信用卡支持：金额已经被逆转了
-              贡献者使用的卡片，最多可作为2张发票的信用卡。
-              <br/>用boletobancário制作的支架：价值已经存在
-              转移到贡献者的BOND，以便他实现服务。
-              <br/> <a href =“http://suporte.catarse.me/hc/pt-br/articles/202365507-Regras-e-funcionamento-dos-reembolsos-estornos-cancelamentos”
-              target =“blank”>（了解更多）</a>'
-          paid:
-            label: 退款尚未开始
-            text: Sketchpad尚未提供Catarse的银行详细信息
-              退款或提供的数据不正确。
-        successful:
-          paid:
-            label: 确认
-            text: 已付款并确认的信用卡或机票支持
-              由系统。
-          refunded:
-            label: 已回答
-            text: 支付后由贡献者取消的支持。
-        online:
-          paid:
-            label: 确认
-            text: 已付款并确认的信用卡或机票支持
-              由系统。
-          pending:
-            label: 已开始
-            text: '尚未支付或尚未支付的机票捐款
-              已在系统中考虑。 <br/>注意: 一旦付款，机票
-              最多可能需要2个工作日才能在系统中确认。
-          refunded:
-            label: 已回答
-            text: 支付后由贡献者取消的支持。
-    successful_onboard:
-      start:
-        href: “＃confirm_account”
-        icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3508dbfc50aef5095c66a_finish-icon.png
-        title: 恭喜！
-        text: 您的项目已成功完成，现在已达到余额
-          可以转移到您的银行帐户。
-        cta: 查看余额
-      pending_transfer:
-        icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350c5e7d136a016bc34a4_transfer-ok-icon.png
-        title: 银行转账正在进行中
-        text: “$％{total_amount}的转帐将转入银行帐户％{bank_name}，代理商：％{代理商}，帐户：％{帐户}。如果您有任何问题，
-          我们会通过电子邮件％{user_email}与您联系。 <br/> <br/> <a href ='http：//fazum.catarse.me/calculadora-repasse'
-          target ='blank'>这是</a>如何计算钱应该的日期
-          输入你的帐户！“
-      error_account:
-        icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350fabfc50aef5095c67d_transfer-pending-icon.png
-        title: 银行转帐待处理
-        text: 您的银行详细信息包含一些错误信息，我们已经提供了
-          已被通知有关此问题！请密切关注<span class =“fontweight-semibold”>％{user_email} </ span>，因为我们将通过电子邮件解决此问题
-          5个工作日。
-      finished:
-        icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3511ee7d136a016bc34fa_succesful-icon.png
-        title: 祝你的项目好运！
-        text: 始终处理与贡献者的关系！即使之后
-          项目结束，继续使用<a href="%{link_news}">什么是
-          新标签</a>。确认送货地址和其他相关问题
-          提供奖励，使用<a href="%{link_surveys}">问卷调查表
-          标签</a>。
-      confirm_account:
-        title: 你的信息正确吗?
-        person:
-          label: '人:'
-          mei:
-            title: 法律MEI
-            name: '公司名称：'
-            document: 'CNPJ银行账户持有人：'
-          pj:
-            label: 法律
-            name: '公司名称：'
-            document: 'CNPJ银行账户持有人：'
-          state_inscription: '国家注册：'
-          pf:
-            title: 物理
-            name: '持有人姓名：'
-            document: '银行账户持有人公积金：'
-          bank:
-            name: 'Bank:'
-            agency: 'Agency:'
-            account: 'Account:'
-            account_type:
-              conta_corrente: 支票账户
-              conta_poupanca: 储蓄账户
-              conta_corrente_conjunta: 联名现金账户
-              conta_poupanca_conjunta: 联名储蓄账户
-          address: '地址:'
-          neighbourhood: '邻里:'
-          city: '市:'
-          state: '省:'
-          zip_code: '邮编:'
-        accept:
-          title: 你确定吗？
-          info: 您的数据中的任何错误信息都可能延迟资源的转移！
-          cta: 确认
-        refuse:
-          title: 您的数据有什么问题？
-          placeholder: 通过说明需要调整的内容来帮助我们！这将使
-            我们的工作更轻松，节省您的时间。
-          cta: 提交
+    # dashboard_home_templates:
+    #   status: '状态：'
+    #   project_numbers: 
+    #     financed: 融资
+    #     backed: 提出
+    #     contributions: 贡献
+    #     left: 剩下
+    #   waiting_funds: 
+    #     title: “％{name}，我们正在处理最后的付款。”
+    #     subtitle_html: 您的项目已在％{expires}完成，正在等待机票确认和付款。由于门票的到期日，最后一分钟捐款的项目最多可在4个工作日内停留该状态，从项目结束日期开始计算。 ％{链接}。
+    #     header: "从这里你的项目可以达到或不达到目标。这是什么在每种情况下都会发生: "
+    #     success: '我击中了目标：'
+    #     failed: '我没有击中目标：'
+    #     good_luck: 祝你好运！
+    #   成功: 
+    #     title: "％{name}，庆祝你应得的！"
+    #     subtitle_html: 您的项目成功了，现在是开始工作的时候了
+    #       与你的贡献者！特别注意奖励的交付。普罗米修斯？
+    #       交付！请务必查看％{link1}项目后部分并查找
+    #       关于％{link2}。
+    #     header1: "不要忘记: 透明度就是一切。"
+    #     transparent_html: 保持知情的贡献者会让贡献者感到高兴。即使你去告知它的故障或挫折。快乐的贡献者是％{link}。因此，使用和滥用（总是适度）新颖标签。什么你在那里写的直接到你的贡献者的电子邮箱。已经开始提供奖励？在“报告”中。你下载的标签信息，以便您可以管理项目的奖励交付。
+    #     header2: '一定要读:'
+    #   rejected:
+    #     title: "％{name}，遗憾的是现在不是这个时候。"
+    #     subtitle_html: 您已将项目提交给Catarse和我们知道它不符合网站配置文件。有被拒绝的项目不会阻止您提交新项目评估或重新制定您当前的项目。与我们的客户聊天服务！我们建议您仔细查看％{link1}和％{link2}。
+    #   online:
+    #     title: "％{name}，您的广告系列已启动！"
+    #     subtitle_html: 您的项目正在运行，您的广告系列将于11:59:39关闭下午在％{date}日。直到那一天，你可以得到支持。记得，这是全有或全无的，你只会拿出筹集的资金达到了规定的目标。如有其他问题，请访问我们的％{link2}！
+    #     explain_html: "<div class ='fontsize-base u-marginbottom-40 card card-terciary'> <p
+    #       class ='fontweight-bold'>随着项目在空中，一些信息可以
+    #       不再被编辑</ p> <p>您将无法再进行更改：<br>  - 
+    #       其资金目标; <br>  - 截止日期; <br>  - 项目的URL;点击
+    #        - 拥有该项目的用户。 </ p> <p class ='fontweight-bold'>需要更多
+    #       有关活动流程的信息？请参阅旁边的框。 </ p> <p>％{Link1}
+    #       也是巴西情景的重要数据来源。一个好的
+    #       阅读％{link2}可以鼓舞人心。在那里你会找到成功的故事
+    #       项目和活动提示。 </ p> </ DIV>"
+    #   failed:
+    #     title: “％{name}，不要气馁！”
+    #     subtitle_html: 你的项目没有达到目标，我们知道这是
+    #       不是最好的感觉。但不要气馁。采取这个过程
+    #       作为学徒，一定要考虑第二次尝试。别担心，
+    #       你所有的贡献者都会收回钱。 ％{链接}。
+    #     questions: 我们还发了两封电子邮件给你。如果你有
+    #       时间和头脑，如果你能看看会很棒。您的反馈
+    #       帮助我们为您打造更好，更好的Catarse。
+#       draft:
+#         title: “％{name}，构建你的项目！”
+#         subtitle: 项目越仔细，格式越好，机会就越大
+#           它在集水区运动中取得了成功。在提交之前
+#           我们的分析项目，小心地填充所有相邻的襟翼。您可以
+#           保存更改并根据需要多次返回草稿项目。
+#           一切就绪后，点击发送按钮，我们会与您联系
+#           评估你的项目。
+#         subtitle_flex: 项目越精细，格式越好，越大
+#           它在集水区运动中取得成功的可能性。在发布之前
+#           您的项目，小心地填充所有相邻的襟翼。您可以保存更改
+#           并根据需要多次返回草案项目。当一切
+#           准备就绪，点击发送按钮，我们将与您联系以评估您的
+#           项目。
+#         study_title: 你觉得你需要更努力地学习你的项目吗？
+#           查看旁边框中的链接。
+#       approved:
+#         title: “％{name}，您的项目已获批准！”
+#         subtitle_html: 要将项目置于空中，您只需要填写
+#           ％{link1}标签中的所需数据。知道我们收费是很重要的
+#           仅为成功项目收集的总金额的13％。
+#           了解％{link2}。
+#       in_analysis:
+#         title: “％{name}，您提交了项目以供审核，并将收到我们的
+#           在4个工作日内回复“
+#         subtitle_html: 谢谢！我们的团队将评估您项目的所有内容
+#           在4个工作日内，您将收到一封电子邮件，告知是否有
+#           已获批准，已拒绝或是否将继续进行分析以获取更多信息
+#           时间，以便您可以进行建议的调整。利用这一点
+#           是时候收集亲近的人的反馈！
+#     dashboard_analysis_success:
+#       title: “％{name}，您的项目已提交审核！”
+#       subtitle: '您将在4个工作日内通过电子邮件收到我们的回复：'
+#       next_steps: 在等待您的回复时，您可以继续编辑项目！
+#         我们还建议您与亲近的人一起收集反馈
+#         并规划您的广告系列如何运作。
+#     dashboard_nav:
+#       leave_link_html: 退出控制面板
+#       draft_start_tab: 开始
+#       start_tab: 我的广告系列
+#       reports_tab: 支持报告
+#       subscriptions_tab: Subscriber Base
+#       survey_tab: 调查问卷
+#       preview_tab: 预览
+#       posts_tab: 新闻
+#       edit_project: 编辑项目
+#       fiscal_tab: 财政文件
+#       send: 提交
+#       announce_expiration: 设定截止日期
+#       publish: 继续
+#     dashboard_nav_links:
+#       preview_tab: 预览
+#       account_tab: 注册数据
+#       basics_tab: 基本
+#       goal_tab: 融资
+#       goals_tab: 目标
+#       budget_tab: 预算
+#       card_tab_aon: 卡片
+#       card_tab_sub: 图片
+#       card_tab_flex: 卡片
+#       description_tab: description
+#       video_tab: 视频<span class ='fontsize-smallest fontcolor-secondary'>（可选）</ span>
+#       rewards_tab: 奖励<span class ='fontsize-smallest fontcolor-secondary'>（可选）</ span>
+#       about_you_tab: 公开个人资料
+#     flex_dashboard_explanation:
+#       flex:
+#         kind_text: 您正在参与灵活的模型试用期。您的
+#           参与对于理解我们如何扩展这种模式至关重要
+#           适用于所有用户。 ％{链接}
+#         expiration_text: 在灵活广告系列中，您可以继续保留广告系列
+#           最多1年！在空中，您可以选择设置
+#           项目结束日期（至少2天）。活动结束后，您会收到
+#           您在10个工作日内收集的所有物品（折扣价）。
+#         expiration_title: 收集截止日期
+#     dashboard_user_about:
+#       submit: 保存
+#       twitter_label: Twitter个人资料
+#       twitter_hint: 粘贴您的个人资料链接
+#       other_link_label: 互联网上的存在
+#       other_link_hint: 包含帮助贡献者了解您为什么的链接
+#         合适的人做这个项目。
+#       about_label: 关于你
+#       about_hint: 如果您想更好地描述您，您的公司，请使用此空间
+#         或你的机构。想给合作伙伴好评吗？使用一些机构
+#         视频？这个空间是你的，并以你想要的任何方式使用它。所有这些信息
+#         将显示在您的公开个人资料中的标签关于。
+#       facebook_link_label: Facebook个人资料
+#       facebook_link_hint: 粘贴您的个人资料链接
+#       uploaded_image_label: 个人资料图片
+#       uploaded_image_hint: 此图片将用作个人资料的缩略图
+#         （PNG，JPG 280x280理想尺寸）
+#       name_label: 名称
+#       name_hint: 这是用户在您的个人资料中看到的名称。
+#       email_label: 注册电子邮件
+#       email_hint: 通过电子邮件登录Catarse并与我们的团队沟通
+#         及其贡献者
+#     dashboard_goal:
+#       want_more: 想了解更多？
+#       online_days_closed: 确定的时间
+#       online_days_closed_hint: 您的项目已经在捕获中
+#         时间已定义。您可以选择1到365天。出版后
+#         该项目，你不能改变这个截止日期。
+#       online_days_open: 开放时间
+#       online_days_open_hint: 您的项目在没有设定截止日期的情况下上线。你会
+#         可以选择在任何时间设置项目结束日期（最少1天）
+#         出版后12个月。
+#       online_days_label: 收集时间
+#       online_days_flex_hint: 这是你的项目播出的时间，
+#         开放筹款。在Flex中，您可以选择是否使用发布项目
+#         截止日期或公开截止日期。 <a class =“alt-link”href =“https://catarse.attach.io/HJGoCzmJl”
+#         target =“_ blank”>了解我们设定截止日期的提示。</a>
+#       online_days_aon_hint: 这是你的项目播出的时间，
+#         开放筹款。在All或Nothing中，您可以选择1到60天。
+#         <a class="alt-link" href=" https://catarse.attach.io/HJGoCzmJl" target="_blank">了解
+#         我们设定截止日期的提示。</a>
+#       goal_label: 收集目标
+#       goal_hint: 你需要筹集多少钱？设定一个与你的目标一致的目标
+#         项目提议。不要忘记在计算中包含管理费用。
+#       goal_taxes_link: 了解Catarse费率
+#       goal_taxes_label: Catarse费用
+#       goal_taxes_watch_video_html: <a class =“fontsize-small”href =“http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico”
+#         target =“_ blank”>观看我们的<span class =“fontweight-bold”>基本预算视频
+#         课</跨度> </A>
+#       goal_aon_taxes_hint: 这是从您的收藏中扣除的金额
+#         在竞选活动结束时，关于Catarse的服务和手段
+#         付款如果您的项目达到或超过目标，则占总数的13％
+#         在广告系列结束时收取的费用将被收取。如果您的项目有
+#         没有达到目标，所有支持的钱将返还给你的贡献者
+#         活动结束后，您无需付费。这是全有或全无！
+#       goal_flex_taxes_hint: 这是从您的收藏中扣除的金额
+#         在竞选活动结束时，关于Catarse的服务和手段
+#         付款在活动结束时收集的总数的13％将是
+#         无论是否达到目标，都会被收取费用。
+#       mode_label: 融资类型
+#       mode_hint: 选择集体融资活动的模板。后
+#         开始您的广告系列，您将无法进行交易。
+#       mode_diff_ebook: <a class =“fontsize-small”href =“https://catarse.attach.io/BkLCRfXyg”
+#         target =“_ blank”>下载我们的<span class =“fontweight-bold”> Flex vs All或
+#         什么都没有电子书</ span> </a>
+#       mode_diff_link: 查看模型之间的差异
+#       flex_diff_html: <span class =“fontweight-semibold”>承诺<br> </ span>你
+#         同意执行项目并提供奖励（如果您已选择
+#         提供他们），<span class =“fontweight-semibold”>无论收集金额</ span>
+#         <br> <br> <span class =“fontweight-semibold”>工作原理？</ span> <br>收到，
+#         在学期结束时，你收集的所有东西（仅扣除
+#         无论达到收集目标，Catarse的速度）。搜索结果
+#         <span class =“fontweight-semibold”>空中最长项目截止日期：</ span>
+#         12个月<br> <br> <span class =“fontweight-semibold”>费用：</ span> 13％
+#         总收集
+#       aon_diff_html: <span class =“fontweight-semibold”>承诺</ span> <br>您
+#         提交执行项目并仅提供奖励<span class =“fontweight-semibold”> if
+#         收入达到或超过目标。</ span> <br> <br> <span class =“fontweight-semibold”>如何
+#         它有效吗？</ span> <br>最后只收到收到的金额
+#         在该术语中，您已达到收藏目标。否则，你所有的贡献者
+#         收到他们的付款。 <br> <br> <span class =“fontweight-semibold”>截止日期
+#         对于空中项目：</ span> 60天<br> <br> <span class =“fontweight-semibold”>费用：</ span>
+#         收集总量的13％
+#       submit: 保存
+#       kind_label: 融资类型
+#       kind_link: 如果您想了解更多信息，请点击此处
+#       flex: 
+#         kind_text: 您正在参与灵活的模型试用期。您的
+#           参与对于理解我们如何扩展这种模式至关重要
+#           适用于所有用户。 ％{链接}
+#     dashboard_description:
+#       submit: 保存
+#       description_label: 项目描述
+#       description_hint: '充满激情和清晰地讲述将要完成的事情。
+#         澄清有关如何使用资金，背后是谁的可能问题
+#         项目，项目将如何以及何时交付。透明度吸引
+#         更多贡献者。请记住：您的项目将由普通人访问
+#         谁将决定是否为您的项目做出贡献。 Capriche！”
+#       description_alert: <span class =“fa fa-fw fa-lightbulb-o”> </ span>了解如何
+#         <a class="alt-link" href="https://catarse.attach.io/BJmQVOiR" target="blank">创建
+#         一个迷人的描述！</a>
+#       description_video_alert: <span class =“fa fa-lightbulb -o”> </ span>了解如何
+#         <a href="https://catarse.attach.io/BJmQVOiR" target="_blank" class="alt-link">创建
+#         一个迷人的描述</a>并查看示例<a href =“http://crowdfunding.catarse.me/videomakers?ref=ctrse_dashboard_video”
+#         目标=“_ blank”>成功视频</a>关于Catarse！
+#     dashboard_reward:
+#       submit: 保存
+#       add_reward: 添加奖励
+#       reward: 奖励
+#     dashboard_start:
+#       title: 生活你喜欢做的事
+#       description: 'Hello％{name}！这是您构建和规划自己的时间
+#         运动。小心地填充所有相邻的襟翼，并确保将它们保存为
+#         你填补退房会降低我们为您准备的电子书：'
+#       video_src: https：//docs.google.com/presentation/d/e
+#     dashboard_announce_expiration:
+#       explanation_01: '当我们开始最后一段时间，我们将开启7天的倒计时。
+#         你可以收到捐款，直到：'
+#       explanation_02: 这是一个不可逆转的行动。一旦定义了最终拉伸，
+#         该项目将无法再改变其资金截止日期。在
+#         在学期结束时，您将收到所有收到的金额。
+#     dashboard_preview:
+#       aon:
+#         header_subtitle: 现在是反馈的时候了！
+#         header_text: 与朋友分享以下链接并花时间制作
+#           精细调整以帮助您的广告系列。
+#       flex:
+#         header_subtitle: 是时候听建议了！
+#         header_text: 与你的朋友分享％{link}链接并花时间去
+#           进行微调以帮助您的广告系列。
+#         publish_btn_html: 我很满意！ <br>我想现在发布我的项目
+#     dashboard_posts:
+#       only_to_backers: 我希望这个新闻只对贡献者可见。
+#       publish: 发布新颖性
+#       preview: 预览
+#       all_backers_aon: 贡献者和意志
+#       all_backers_flex: 贡献者和意志
+#       all_backers_sub: 订阅者将是
+#       backers_aon: 所有贡献者
+#       email_backers_aon: 通过电子邮件发送给所有贡献者
+#       email_backers_flex: 通过电子邮件发送给所有贡献者
+#       email_backers_sub: 通过电子邮件发送给所有订阅者
+#       backers_only_aon: 仅在平台上为这些贡献者显示。
+#       backers_only_flex: 仅在平台上可见这些贡献者。
+#       backers_only_sub: 平台上仅对这些订阅者可见。
+#       backers_some_aon: “一些奖励的贡献者。”
+#       backers_some_flex: “一些奖励的贡献者。”
+#       backers_some_sub: '某些奖励的订阅者。'
+#       backers_flex: 所有贡献者
+#       backers_sub: 所有订阅者
+#       successful: 消息已成功发送
+#       send_a_message_sub: 向订阅者提交新闻报道
+#       send_a_message_flex: 向您的贡献者提交新闻报道
+#       send_a_message_aon: 向您的贡献者提交新闻报道
+#       everyone_aon: 每个人（贡献者和非贡献者）
+#       everyone_flex: 每个人（贡献者和非贡献者）
+#       everyone_sub: 每个人（订阅者和非订阅者）
+#       discard: 丢弃
+#       warning: 所有新闻稿都通过电子邮件直接发送给他们的贡献者。评论
+#         发布之前的帖子。
+#       old_posts: 旧消息
+#     dashboard_budget:
+#       submit: 保存
+#       budget_label: 项目预算
+#       budget_alert: <span class =“fa fa-fw fa-lightbulb-o”> </ span>查看有关如何提示
+#         到<a class =“alt-link”href =“http://fazum.catarse.me/agradecimento-video-tutorial-orcamento-basico?ref=ctrse_dashboard”
+#         target =“_ blank”>确定项目的目标！</a>
+#     dashboard_card:
+#       submit: 保存
+#       card_label: 卡片
+#       headline_label: Catchphrase
+#       headline_label_hint: 项目卡上的短语，用于呼叫贡献者。一定有
+#         最多100个字符并很好地总结项目。
+#       uploaded_image_label: 项目图片
+#       cover_image_label: 背景图片<span class =“fontcolor-secondary”>（可选）</ span>
+#       cover_image_hint: 此图片将用于主要区域的底部
+#         你的页面（见例）。该文件不能超过1MB和尺寸
+#         应为1340 X 860像素，采用JPG，GIF或PNG格式。
+#       uploaded_image_hint: 此图像将用作项目的缩略图
+#         （PNG，JPG尺寸720 x 400）
+#     dashboard_video:
+#       submit: 保存
+#       video_label: 项目视频
+#       video_hint: 链接到Vimeo或Youtube。这是广告系列的主要视频。
+#       video_alert: <span class =“fa fa-fw fa-lightbulb -o”> </ span>查看<a的示例
+#         class =“alt-link”href =“http://crowdfunding.catarse.me/videomakers?ref=ctrse_dashboard_video”
+#         target =“_ blank”>关于Catarse的成功视频！</a>
+#       aon:
+#         card_label: 视频
+#         video_url: 项目视频
+#         video_url_hint: ''
+#         video_url_subtitle: 链接到Vimeo或Youtube。这是您的主要视频
+#           运动。
+#       flex:
+#         card_label: 视频
+#         video_url: 项目视频
+#         video_url_hint: ''
+#         video_url_subtitle: 链接到Vimeo或Youtube。这是您的主要视频
+#           运动。
+#     dashboard_basics:
+#       permalink: 链接到Catarse上的项目
+#       permalink_hint: 您可以编辑它直到项目上线。选择一些东西
+#         简单，直接，并很好地识别您的项目。尽量不要使用连字符，
+#         下划线等
+#       tags: 标签
+#       tags_hint: 列出最多5个与您的广告系列相关的关键字，以便于发现
+#         由贡献者。
+#       tags_max_error: 您最多可以使用5个标签
+#       admin_tags: 管理标签
+#       admin_tags_hint: 报告以逗号分隔的标签
+#       user_id: 用户ID
+#       tracker_snippet_html: Html跟踪代码段
+#       city: 项目位置
+#       city_hint: 你的项目将在哪里进行？如果它发生在超过
+#         一个地方，一个提示是将城市放在您的网络潜在贡献者
+#         是最伟大的。
+#       online_date: 进入空中的日期
+#       service_fee: catarse的比率
+#       name: 项目名称
+#       name_hint: 给出一个人们会很容易记住的名字。不要超过50个字符。
+#       name_label: 越直接越好。不要超过50个字符
+#       url: 项目网址
+#       url_label: 这是你项目的地址，应该很容易记住。
+#         避免使用下划线，连字符和符号
+#       category: 类别
+#       category_hint: 选择最适合您项目的那个。
+#       category_label: 探索并受到同类别其他项目的启发
+#         就像你的。
+#       online_days: 收集截止日期
+#       online_days_label: 您可以为广告系列选择1到60天。校验
+#         在导演指南中提供截止日期的提示。
+#       值：要收集的金额
+#       value_secondary: 计划与项目建议一致的目标。
+#         检查您的预算，并确保包含Catarse收取的13％费用
+#         你的项目是成功的
+#       form:
+#         submit: 提交
+#     contributions_report:
+#       legend_labels:
+#         failed:
+#           pending_refund:
+#             label: 退款正在进行中
+#             text: 支持者已经提供了银行详细信息和还款
+#               进展。
+#           refunded:
+#             label: 退款
+#             text: '信用卡支持：金额已经被逆转了
+#               贡献者使用的卡片，最多可作为2张发票的信用卡。
+#               <br/>用boletobancário制作的支架：价值已经存在
+#               转移到贡献者的BOND，以便他实现服务。
+#               <br/> <a href =“http://suporte.catarse.me/hc/pt-br/articles/202365507-Regras-e-funcionamento-dos-reembolsos-estornos-cancelamentos”
+#               target =“blank”>（了解更多）</a>'
+#           paid:
+#             label: 退款尚未开始
+#             text: Sketchpad尚未提供Catarse的银行详细信息
+#               退款或提供的数据不正确。
+#         successful:
+#           paid:
+#             label: 确认
+#             text: 已付款并确认的信用卡或机票支持
+#               由系统。
+#           refunded:
+#             label: 已回答
+#             text: 支付后由贡献者取消的支持。
+#         online:
+#           paid:
+#             label: 确认
+#             text: 已付款并确认的信用卡或机票支持
+#               由系统。
+#           pending:
+#             label: 已开始
+#             text: '尚未支付或尚未支付的机票捐款
+#               已在系统中考虑。 <br/>注意: 一旦付款，机票
+#               最多可能需要2个工作日才能在系统中确认。
+#           refunded:
+#             label: 已回答
+#             text: 支付后由贡献者取消的支持。
+#     successful_onboard:
+#       start:
+#         href: “＃confirm_account”
+#         icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3508dbfc50aef5095c66a_finish-icon.png
+#         title: 恭喜！
+#         text: 您的项目已成功完成，现在已达到余额
+#           可以转移到您的银行帐户。
+#         cta: 查看余额
+#       pending_transfer:
+#         icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350c5e7d136a016bc34a4_transfer-ok-icon.png
+#         title: 银行转账正在进行中
+#         text: “$％{total_amount}的转帐将转入银行帐户％{bank_name}，代理商：％{代理商}，帐户：％{帐户}。如果您有任何问题，
+#           我们会通过电子邮件％{user_email}与您联系。 <br/> <br/> <a href ='http：//fazum.catarse.me/calculadora-repasse'
+#           target ='blank'>这是</a>如何计算钱应该的日期
+#           输入你的帐户！“
+#       error_account:
+#         icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c350fabfc50aef5095c67d_transfer-pending-icon.png
+#         title: 银行转帐待处理
+#         text: 您的银行详细信息包含一些错误信息，我们已经提供了
+#           已被通知有关此问题！请密切关注<span class =“fontweight-semibold”>％{user_email} </ span>，因为我们将通过电子邮件解决此问题
+#           5个工作日。
+#       finished:
+#         icon: https：//daks2k3a4ib2z.cloudfront.net/54b440b85608e3f4389db387/56c3511ee7d136a016bc34fa_succesful-icon.png
+#         title: 祝你的项目好运！
+#         text: 始终处理与贡献者的关系！即使之后
+#           项目结束，继续使用<a href="%{link_news}">什么是
+#           新标签</a>。确认送货地址和其他相关问题
+#           提供奖励，使用<a href="%{link_surveys}">问卷调查表
+#           标签</a>。
+#       confirm_account:
+#         title: 你的信息正确吗?
+#         person:
+#           label: '人:'
+#           mei:
+#             title: 法律MEI
+#             name: '公司名称：'
+#             document: 'CNPJ银行账户持有人：'
+#           pj:
+#             label: 法律
+#             name: '公司名称：'
+#             document: 'CNPJ银行账户持有人：'
+#           state_inscription: '国家注册：'
+#           pf:
+#             title: 物理
+#             name: '持有人姓名：'
+#             document: '银行账户持有人公积金：'
+#           bank:
+#             name: 'Bank:'
+#             agency: 'Agency:'
+#             account: 'Account:'
+#             account_type:
+#               conta_corrente: 支票账户
+#               conta_poupanca: 储蓄账户
+#               conta_corrente_conjunta: 联名现金账户
+#               conta_poupanca_conjunta: 联名储蓄账户
+#           address: '地址:'
+#           neighbourhood: '邻里:'
+#           city: '市:'
+#           state: '省:'
+#           zip_code: '邮编:'
+#         accept:
+#           title: 你确定吗？
+#           info: 您的数据中的任何错误信息都可能延迟资源的转移！
+#           cta: 确认
+#         refuse:
+#           title: 您的数据有什么问题？
+#           placeholder: 通过说明需要调整的内容来帮助我们！这将使
+#             我们的工作更轻松，节省您的时间。
+#           cta: 提交
