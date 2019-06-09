@@ -11,63 +11,63 @@ en:
         2:
           title: Bring your creative project to the world
           subtitle: ''
-          link: "/ start? ref = home_banner"
+          link: "/start?ref=home_banner"
           cta: Start your campaign
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-fctodos.jpg
         1:
           title: <img src="https://daks2k3a4ib2z.cloudfront.net/573a70f6d5c3cb6532f8b1a7/59c3980fd03bd6000107e99c_logo-assinaturas.png" width="400">
           subtitle: Connect with your fans and receive payments every month on our
             recurring funding platform.
-          link: https://crowdfunding.catarse.me/subscriptions?utm_source=catarse&amp;utm_medium=banner_home_1&amp;utm_campaign=qualified_leads_from_home
+          link: '#'
           cta: know more
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-assinaturas.jpg
         3:
           title: '2001: A Space Odyssey - 50 years'
           subtitle: A historical book commemorating the 50th anniversary of the classic
             sci-fi.
-          link: https://www.catarse.me/2001?ref=home_banner
+          link: '#'
           cta: Know the project
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-2001.jpg
         4:
           title: LEGENDS | Chiaroscuro Studios Yearbook 2018
           subtitle: 50 characters of folklore in the line of great Brazilian comics
             of the present time.
-          link: https://www.catarse.me/lendas?ref=home_banner
+          link: '#'
           cta: Know the project
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-arcanesally.jpg
         5:
           title: Arcane Sally and Mr. Steam
           subtitle: Agents of the Crown, dangerous mathematical theories of Lewis
             Carroll and the supernatural in the Victorian Era.
-          link: https://www.catarse.me/arcanesally?ref=home_banner
+          link: '#'
           cta: Know the project
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-arcanesally.jpg
         6:
           title: One Night in L'Enfer
           subtitle: Van Gogh meets Paul Gauguin, Gustav Klimt and Toulouse Lautrec
             in the sinister Cabaret de L'Enfer.
-          link: https://www.catarse.me/lenfer?ref=home_banner
+          link: '#'
           cta: Know the project
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-lenfer.jpg
         7:
           title: Barbed wire
           subtitle: Leadership is murdered every year and you do not know. We need
             to talk about it!
-          link: https://www.catarse.me/aramefarpado?ref=home_banner
+          link: '#'
           cta: Know the project
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-aramefarpado.jpg
         8:
           title: <img src="https://uploads-ssl.webflow.com/573a70f6d5c3cb6532f8b1a7/58ead3167db7c241dbb93fbc_geek-news-logo.png" width="400">
           subtitle: Comics, boardgames, RPGs and digital games, inside and outside
             the Catarse.
-          link: https://crowdfunding.catarse.me/geek-news
+          link: '#'
           cta: Subscribe to Geek News
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-geek-news.jpg
         9:
           title: Collective funding for Books and Magazines
           subtitle: Join a community of authors and publishers and publish your independent
             book with the help of readers
-          link: https://crowdfunding.catarse.me/publicacoes-independentes-cofinanciero?ref=home_banner
+          link: '#'
           cta: know more
           image: https://s3.amazonaws.com/cdn.catarse/assets/banner-home-landing-publicacoes.jpg
     new_feature_badge: Novelty

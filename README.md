@@ -142,6 +142,28 @@ CatarseSettings[:common_db_password] = 'Password1'
 CatarseSettings[:common_db_name] = 'service_core'
 CatarseSettings[:company_name]= 'Real Capital'
 
+aws
+
+CatarseSettings[:aws_access_key]= 'AKIAJMLE6HGJFNCKFAQQ'
+CatarseSettings[:aws_region]= 'ap-southeast-1'
+CatarseSettings[:aws_host]= 's3.ap-southeast-1.amazonaws.com'
+CatarseSettings[:aws_secret_key]= 'JdW7hfvxE0U/RiQJNU8qjtvX5vZXT87aYwHjjMHt'
+CatarseSettings[:aws_bucket]= 'realcapital'
+
+
+
+CatarseSettings[:base_url]= ''
+
+
+Build js files
+
+cp ../catarse.js/dist/catarse.js app/assets/javascripts/i18n/catarse_en.js
+set zh-CN, and npm run build:prod
+cp ../catarse.js/dist/catarse.js app/assets/javascripts/i18n/catarse_zh-CN.js
+
+
+npm run build:prod; cp dist/catarse.js ../catarse/app/assets/javascripts/i18n/catarse_zh-CN.js;
+
 Need this:
 create role catarse;
 create database service_core;

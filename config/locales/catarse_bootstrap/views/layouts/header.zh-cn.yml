@@ -12,6 +12,7 @@ zh-CN:
       signin: 登录
       signup: 注册
       submit: 提交你的项目
+      explore: 搜索
       search: 搜索项目
     login:
       login_with_facebook: 用Facebook登录
